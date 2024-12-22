@@ -3,6 +3,6 @@ layout: page
 title: File Index
 ---
 
-{% for file in site.static_files %}
-- [{{ file.name }}]({{ file.path | split: '.' | first }})
+{% for file in site.html_pages %}
+- [{{ file.title }}]({{ file.url }})
 {% endfor %}
