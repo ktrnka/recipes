@@ -3,8 +3,7 @@ layout: page
 title: File Index
 ---
 
-{% for page in site.pages %}
-  {% if page.path contains 'your_directory' %}
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  {% endif %}
+{% for file in site.static_files %}
+  {% assign file_path_without_ext = file.path | split: '.' | first %}
+  <a href="{{ file_path_without_ext }}">{{ file_path_without_ext }}</a>
 {% endfor %}
