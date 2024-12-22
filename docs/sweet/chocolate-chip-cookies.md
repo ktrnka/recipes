@@ -1,21 +1,21 @@
-Ingredients
-2 sticks butter, melted and cooled
-2 eggs
-1 tsp vanilla extract
+# Chocolate chip cookies
 
-¾ cup sugar
-¾ cup brown sugar
+## Ingredients
 
-2 ¼ cup flour
-1 tsp baking soda
-1 tsp salt
+- 2 sticks butter, melted and cooled
+- 2 eggs
+- 1 tsp vanilla extract
+- 3/4 cup sugar
+- 3/4 cup brown sugar
+- 2 1/4 cup flour
+- 1 tsp baking soda
+- 1 tsp salt
+- 1 package chocolate chips (preferably chocolate chunks)
+- (optional) 1/2 cup walnuts
 
-1 package chocolate chips (preferably chocolate chunks)
-(optional) ½ cup walnuts
-
-Directions
-Mix the stuff, except chocolate chips
-Let it cool down a bit
-Mix in chocolate chunks
-Let chill overnight in the fridge
-Bake at 375 until it’s right
+## Steps
+1. Mix the stuff, except chocolate chips.
+2. Let it cool down a bit.
+3. Mix in chocolate chunks.
+4. Let chill overnight in the fridge.
+5. Bake at 375°F until it's right.

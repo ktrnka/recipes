@@ -1,12 +1,11 @@
-Meatballs
+# Meatballs
 
-1 lb	ground beef
-1 c	bread crumbs
-1	egg
-1/4 c	milk
+## Ingredients
+- 1 lb ground beef
+- 1 cup bread crumbs
+- 1 egg
+- 1/4 cup milk
 
-Mix ingredients, cook in oven for a while
-
-Notes
------
-I tried cooking them in a pan and on the GF grill, no success in either
+## Steps
+1. Mix ingredients.
+2. Cook in oven for a while.
