@@ -5,5 +5,5 @@ title: File Index
 
 {% for file in site.static_files %}
   {% assign file_path_without_ext = file.path | split: '.' | first %}
-  <a href="{{ file_path_without_ext }}">{{ file_path_without_ext }}</a>
+  <a href="recipes/{{ file_path_without_ext }}">{{ file.name }}</a>
 {% endfor %}
