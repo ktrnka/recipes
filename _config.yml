@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - docs/**/*.md
+  - recipes/**/*.md
