@@ -14,4 +14,4 @@
 - Add the rest of the stuff
 - Let rise a couple of hours, then divide into 6 balls
 - Flatten each with a rolling pin until pretty thin
-- Cook on a hot cast iron
+- Cook on a hot cast iron - for me, setting 7 on the medium sized burner works
