@@ -4,12 +4,12 @@ Adapted from Claire Saffitz
 ## Ingredients
 
 ### Dough
-- 1 cup room temp water
-- 423g flour
-- 3 tbsp melted, cooled butter
-- 1 1/2 tsp salt (5g)
 - 1 tsp yeast
 - 1/4 cups sugar
+- 1 cup room temp water
+- 3 tbsp melted, cooled butter, or just grated butter into the lukewarm dough
+- 1 1/2 tsp salt (5g)
+- 423g flour
 
 ### Butter block
 - 3 sticks salted butter (340g)
@@ -36,3 +36,4 @@ Adapted from Claire Saffitz
 - Dislodge them from the pan immediately with chopsticks. Remove after 2-4 min once they've firmed up a bit
 - Cool inverted on a wire rack
 - Exercise a lot
+- You can freeze the cooked kouignettes in little bags and reheat at 325-350 for 8-10 min
