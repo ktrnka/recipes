@@ -1,6 +1,6 @@
 # Pan de cristal
 
-Adapted from KAF. Half the suggested amount
+Adapted from Martin at King Arthur Flour, halved
 
 ## Ingredients
 
@@ -16,7 +16,7 @@ Adapted from KAF. Half the suggested amount
 
 ## Tips
 
-- Get a bug tupperware, mix in that, then fold in that
+- Get a big tupperware, mix in that, then fold in that
 - Can replace 50-100g of water/flour with starter for better flavor. Reduce yeast a little if doing that
 - Can add 25-50g of rye, wheat, or spelt to give a more complex flavor
 

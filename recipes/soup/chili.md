@@ -13,8 +13,8 @@
 ### Other spices to taste, these are what I use:
 
 - Important spices
-    - onion powder (necessary)
-    - salt (necessary)
+    - onion powder
+    - salt
 - Optional / to taste
     - garlic powder
     - ground pepper
@@ -37,6 +37,6 @@
     - If the taste seems hollow or too much tomato, add more chili powder and/or onion powder.
 
 ## Tips
-- After browning the meat, you can deglaze it with a little water and let that reduce a touch. Then add that into the chili to make it more meaty. It also helps with cleaning the pan.
+- After browning the meat, you can deglaze the pan with a little water and let that reduce a touch. Then add that into the chili to make it more meaty. It also helps with cleaning the pan.
 - The brand of chili powder can have a big effect. If you’re having trouble with flavor try a different brand.
 - If it’s too watery, take the lid off for the last hour or so.
