@@ -1,9 +1,10 @@
 # Hummus
+Notes from [Niffa](https://rainbowplantlife.com/how-to-make-amazing-hummus-at-home/)
 
 ## Ingredients
 - 1 cup dried chickpeas, soaked overnight with 1/2 tsp baking soda
 - 180g tahini
-- 6 tbsp lemon juice
+- 6 tbsp lemon juice (like half of one of those little things)
 - 4-6 cloves of garlic
 - 1 tsp cumin
 - salt and pepper to taste
