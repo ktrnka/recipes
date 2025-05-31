@@ -10,7 +10,7 @@
 - Simmer, 40 minutes:
     - 1 cup lentils
     - 2.5 cups water, vegetable broth, or chicken broth
-    - 1 tsp salt
+    - Salt to taste (about 1 tsp)
     - 1 tbsp butter
 
 ## Tips
