@@ -56,12 +56,13 @@ This is what I currently use and it works well. I prefer it over a full oven bec
 2. Put a dough ball in and stretch it to fill the bottom of the pan
 3. Let it rise, covered, for 60+ minutes
 4. Sauce & cheese. Low-moisture mozzarella is better than fresh mozzarella for this one.
-5. Bake at maybe 375 for 18 min or so
+5. Bake at maybe 375 for 18-20 min
 
 ### Tips, Variations
 - Longer proof = more airy crust
 - If your pan is nonstick enough, you can have the cheese touch the side of the pan for crispy edges. If not, avoid at all costs because it's a huge pain to clean
 - You can do the same approach for plain focaccia. In that case, dimple the dough, drizzle with olive oil, and sprinkle with salt. You can also add toppings.
+    - Halved cherry tomatoes, mama lil's peppers, black pepper, coarse salt: This worked great. I prefer to put the cut side of the tomatoes down, otherwise they can burn my mouth a bit. I grate some parmeseano reggiano on top after baking also.
 
 ## Cast iron pizza
 I forget the specifics... I was inspired by Kenji's video below. The nice thing is that cast iron is easy to clean.
