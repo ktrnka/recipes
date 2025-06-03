@@ -1,5 +1,7 @@
 # Chewy Brownie Cookies
 
+Makes about 2 1/2 dozen cookies.
+
 ## Ingredients
 - 1 package (10-15 oz) brownie mix
 - 1/2 cup flour
@@ -19,5 +21,3 @@
 6. Place two inches apart on a greased baking sheet.
 7. Bake at 350°F for 12 to 15 minutes, or until tops begin to crack. Do not overbake.
 8. Immediately move cookies to a cooling rack. Cool before serving.
-
-Makes about 2 1/2 dozen cookies.

@@ -1,5 +1,7 @@
 # Hazelnut biscotti
 
+Makes about 2 dozen biscotti.
+
 ## Ingredients
 
 - 1 cup hazelnuts (aka filberts), chopped

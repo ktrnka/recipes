@@ -1,7 +1,8 @@
 # Naan
-Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-now-100-tandoor-free.html)
 
 Makes 4-6 naan
+
+Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-now-100-tandoor-free.html)
 
 ## Ingredients
 - 1/2 c water
