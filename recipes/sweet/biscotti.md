@@ -2,18 +2,18 @@
 
 ## Ingredients
 
-- 1c hazelnuts (aka filberts), chopped
+- 1 cup hazelnuts (aka filberts), chopped
 - 1 tsp baking powder
 - pinch salt
-- 2c flour
-- 3/4 c sugar
+- 2 cups flour
+- 3/4 cup sugar
 - 3 eggs
 - 1 tsp vanilla extract
 - 1/2 tsp almond extract
 
 ## Steps
 
-1. Toast nuts in oven - 10 min at 350°F or until you smell them.
+1. Toast nuts in oven - 10 minutes at 350°F or until you smell them.
 2. Mix dry ingredients (except nuts).
 3. Mix wet ingredients.
 4. Fold dry ingredients into wet.
@@ -28,7 +28,7 @@
 
 ## Tips
 
-- Mix wet ingredients in a big bowl because you’ll add dry ingredients to them.
+- Mix wet ingredients in a big bowl because you'll add dry ingredients to them.
 - For variations, choose different nuts and/or replace almond extract. Pecans with rum extract was good.
 - Slice the biscotti with a serrated knife.
 - I use my finger to help measure the width of the pieces.

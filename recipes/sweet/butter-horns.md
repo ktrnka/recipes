@@ -18,6 +18,6 @@
 1. Make vanilla dough, separate into 4 quarters.
 2. Roll each out like pizza.
 3. Make 16 slices like pizza.
-4. Sprinkle nuts with a 1" border that doesn't have nuts on the edge.
+4. Sprinkle nuts with a 1 inch border that doesn't have nuts on the edge.
 5. Roll it up like a croissant.
-6. Bake 10-12 minutes at 350°F or 325°F
+6. Bake 10-12 minutes at 350°F or 325°F.
