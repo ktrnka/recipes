@@ -3,9 +3,6 @@ layout: page
 title: Recipes
 ---
 
-
-# Recipes
-
 ## Bread
 - [Biscuits](/recipes/bread/biscuits.md)
 - [Flour Tortillas](/recipes/bread/flour-tortillas.md)
