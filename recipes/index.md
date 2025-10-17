@@ -29,6 +29,6 @@ title: Recipes
 ## Other
 - [Choux](/recipes/choux)
 - [Hummus](/recipes/hummus)
-- [Koiugn Amann](/recipes/koiugn-amann)
+- [Kouign Amann](/recipes/kouign-amann)
 - [Meatballs](/recipes/meatballs)
 - [Pizza](/recipes/pizza)

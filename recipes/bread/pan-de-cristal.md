@@ -24,9 +24,13 @@ Adapted from Martin at King Arthur Flour, halved
 
 ### Regular PdC
 
+<img src="img/pan_de_cristal.jpg" alt="Pan de Cristal" width="300" />
+
 I forget exactly but it's shaped something like choco croissants.
 
 ### Pizza bianca
+
+<img src="img/pizza_bianca.jpg" alt="Pizza Bianca" width="300" />
 
 When shaping, make it into a shape sorta like choco croissants. Do that on lots of semolina. Then rest for 30-60 min. Then stretch/flatten it. Then dimple it and drizzle olive oil and top with pepper and coarse salt. Garlic powder works wonders too.
 
