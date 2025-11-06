@@ -6,6 +6,7 @@ title: Recipes
 ## Bread
 - [Biscuits](/recipes/bread/biscuits)
 - [Flour Tortillas](/recipes/bread/flour-tortillas)
+- [Hamburger buns](/recipes/bread/burger_buns)
 - [Naan](/recipes/bread/naan)
 - [Pan de Cristal](/recipes/bread/pan-de-cristal)
 
