@@ -1,3 +1,5 @@
+theme: null
+
 plugins:
   - jekyll-relative-links
 relative_links:
