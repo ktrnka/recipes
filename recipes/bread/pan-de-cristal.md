@@ -1,6 +1,6 @@
 ---
 title: Pan de cristal
-layout: default
+layout: cook-mode
 ---
 
 # Pan de cristal
