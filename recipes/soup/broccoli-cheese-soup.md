@@ -1,9 +1,14 @@
+---
+layout: cook-mode
+---
+
 # Broccoli cheese soup
 
 Modifications from http://www.foodnetwork.com/recipes/food-network-kitchens/almost-famous-broccoli-cheddar-soup-recipe/index.html
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 medium-sized yellow onion
 - 4 broccoli crowns (adjust as needed)
 - Half a bag of spinach
@@ -16,6 +21,9 @@ Modifications from http://www.foodnetwork.com/recipes/food-network-kitchens/almo
 - Bay leaves
 - Salt
 - 2 cloves of garlic
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Instructions
 

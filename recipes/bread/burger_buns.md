@@ -1,3 +1,7 @@
+---
+layout: cook-mode
+---
+
 # Hamburger buns for one
 
 <img src="burger_buns.jpg" alt="Burger buns, cooling on a wire rack" width="300" />
@@ -9,14 +13,18 @@ Goals:
 
 # Ingredients
 
+<div class="ingredients" markdown="1">
 - 142g flour
 - 89g water or milk. If using milk, don't use a lot maybe 10-20g
 - 10g oil
 - 6g sugar
 - 4g salt
 - 1-2g yeast
+</div>
 
 Makes 2 buns (125-130g pre-bake). Hydration is 60-65%.
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Variations
 

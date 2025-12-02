@@ -1,12 +1,20 @@
+---
+layout: cook-mode
+---
+
 # Shortbread cookies
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 1/4 cup butter, softened (2.5 sticks)
 - 1 egg yolk
 - 1 tsp vanilla extract
 - 1 cup brown sugar
 - 2 1/4 to 2 1/2 cup flour
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

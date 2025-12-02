@@ -1,7 +1,12 @@
+---
+layout: cook-mode
+---
+
 # Chocolate chip cookies
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 2 sticks butter, melted and cooled
 - 2 eggs
 - 1 tsp vanilla extract
@@ -12,6 +17,9 @@
 - 1 tsp salt
 - 1 package chocolate chips (preferably chocolate chunks)
 - (optional) 1/2 cup walnuts
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 1. Mix the stuff, except chocolate chips.

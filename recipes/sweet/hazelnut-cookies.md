@@ -1,13 +1,21 @@
+---
+layout: cook-mode
+---
+
 # Hazelnut Cookies
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 lb ground hazelnuts (2 cups)
 - 2 cups sugar
 - 3/4 lb butter
 - 1 lb flour (3 1/2 - 4 cups)
 - 8 egg yolks
 - A little milk (maybe 1/2 cup - 1 cup)
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

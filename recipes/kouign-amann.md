@@ -1,3 +1,7 @@
+---
+layout: cook-mode
+---
+
 # Kouignette (mini Koiugn Amann)
 Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 
@@ -6,12 +10,15 @@ Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 ## Ingredients
 
 ### Dough
+
+<div class="ingredients" markdown="1">
 - 1 tsp yeast
 - 1/4 cups sugar
 - 1 cup room temp water
 - 3 tbsp melted, cooled butter, or just grated butter into the lukewarm dough
 - 1 1/2 tsp salt (5g)
 - 423g flour
+</div>
 
 ### Butter block
 - 3 sticks salted butter (340g)
@@ -19,6 +26,8 @@ Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 ### Other
 - About 1 cup sugar in the lamination and pan
 - ~2 tbsp butter to brush the pan
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 - Make the dough, let it double (preferably cold ferment overnight for flavor)

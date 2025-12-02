@@ -1,7 +1,12 @@
+---
+layout: cook-mode
+---
+
 # Chili
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 lb ground beef
 - 1 big onion, like yellow or white, diced
 - 3-5 cloves of garlic, diced
@@ -9,9 +14,11 @@
 - 1 15-oz can diced tomatoes - I like petite diced
 - 2 15-oz cans beans - I usually do 1 pinto and 1 kidney. Sometimes I use "chili beans" or whatever the store has
 - 3 tablespoons chili powder
+</div>
 
 ### Other spices to taste, these are what I use:
 
+<div class="ingredients" markdown="1">
 - Important spices
     - onion powder
     - salt
@@ -23,6 +30,9 @@
     - ghost chili flakes
     - urfa biber flakes
     - (really just a bunch of different peppers in there to develop a more complex flavor)
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

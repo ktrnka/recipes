@@ -1,7 +1,13 @@
+---
+layout: cook-mode
+---
+
 # Hummus
 Notes from [Niffa](https://rainbowplantlife.com/how-to-make-amazing-hummus-at-home/)
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1 cup dried chickpeas, soaked overnight with 1/2 tsp baking soda
 - 180g tahini
 - 6 tbsp lemon juice (like half of one of those little things)
@@ -10,6 +16,9 @@ Notes from [Niffa](https://rainbowplantlife.com/how-to-make-amazing-hummus-at-ho
 - salt and pepper to taste
 - cayenne to taste
 - 1/4 c water (adapt to get the texture you want)
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

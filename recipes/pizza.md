@@ -1,15 +1,24 @@
+---
+layout: cook-mode
+---
+
 # Pizza
 
 ## Pizza dough
 The same dough can be used for all kinds of pizza, but you may want to adjust the hydration level depending on the type of pizza you're making. For example, Neapolitan pizza typically has a hydration level of 60-65%, while Detroit-style pizza can go up to 70% or more. You can even just use the same dough for focaccia.
 
 ### Ingredients
+
+<div class="ingredients" markdown="1">
 - 1 1/4 cup water (237 g)
 - 1 tsp yeast
 - bread flour until it's not tacky, or if you prefer to measure:
     - Neapolitan pizza: 365-395 g
     - Focaccia or Detroit-style pizza: 279-316 g
 - 2 tsp salt
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ### Steps
 1. Mix ingredients, stopping when it's a shaggy dough and sticking too much

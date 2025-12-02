@@ -1,7 +1,12 @@
+---
+layout: cook-mode
+---
+
 # Snickerdoodles
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 1/2 cups sugar
 - 1/2 cup butter
 - 1 tsp vanilla
@@ -12,6 +17,9 @@
 - 1/4 tsp salt
 - 2 tbsp sugar
 - 2 tsp cinnamon
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

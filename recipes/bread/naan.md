@@ -1,3 +1,7 @@
+---
+layout: cook-mode
+---
+
 # Naan
 
 Makes 4-6 naan
@@ -7,6 +11,8 @@ Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-n
 <img src="../img/naan.jpg" alt="Naan" width="300"/>
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1/2 c water
 - 1 tsp sugar
 - 1 tsp yeast
@@ -14,6 +20,9 @@ Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-n
 - About 1 tbsp oil (butter is ok too if melted, softened, or grated)
 - Half a plain yogurt (About 3 oz or 85g)
 - About 2 c flour
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

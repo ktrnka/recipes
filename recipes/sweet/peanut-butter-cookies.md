@@ -1,6 +1,12 @@
+---
+layout: cook-mode
+---
+
 # Peanut Butter Cookies
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1/2 cup sugar
 - 1/2 cup packed brown sugar
 - 1/2 cup softened shortening or butter
@@ -11,6 +17,9 @@
 - 1 3/4 cups flour
 - 1 tsp baking soda
 - 1/2 tsp salt
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 1. Mix all ingredients.

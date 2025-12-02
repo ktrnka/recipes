@@ -1,12 +1,21 @@
+---
+layout: cook-mode
+---
+
 # Monkey Bread
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1-2 cans dinner biscuits
 - 1 stick butter
 - Brown sugar
 - Sugar
 - Cinnamon
 - Raisins
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 1. Melt butter in one bowl.

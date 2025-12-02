@@ -1,8 +1,14 @@
+---
+layout: cook-mode
+---
+
 # Chewy Brownie Cookies
 
 Makes about 2 1/2 dozen cookies.
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1 package (10-15 oz) brownie mix
 - 1/2 cup flour
 - 1/4 cup oil
@@ -11,6 +17,9 @@ Makes about 2 1/2 dozen cookies.
 - 1 cup semi-sweet chocolate chips
 - 1/2 cup chopped pecans
 - Powdered sugar
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 1. In a large bowl, mix brownie mix and flour.

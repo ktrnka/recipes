@@ -1,11 +1,20 @@
+---
+layout: cook-mode
+---
+
 # Biscuits
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 2 cups flour
 - 2 teaspoons sugar
 - 2 teaspoons baking powder
 - 1/2 teaspoon salt
 - 1.5 cups heavy cream
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 1. Adjust oven rack to upper-middle position and preheat to 450°F. Line a baking sheet with parchment paper.

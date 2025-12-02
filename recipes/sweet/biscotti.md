@@ -1,9 +1,14 @@
+---
+layout: cook-mode
+---
+
 # Hazelnut biscotti
 
 Makes about 2 dozen biscotti.
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 1 cup hazelnuts (aka filberts), chopped
 - 1 tsp baking powder
 - pinch salt
@@ -12,6 +17,9 @@ Makes about 2 dozen biscotti.
 - 3 eggs
 - 1 tsp vanilla extract
 - 1/2 tsp almond extract
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

@@ -1,7 +1,12 @@
+---
+layout: cook-mode
+---
+
 # Tomato soup
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 2 tbsp butter
 - 1 onion, diced
 - 1-2 cloves of garlic, diced
@@ -11,6 +16,9 @@
 - basil to taste
 - 1/4 c heavy cream or similar
 - salt and pepper to taste
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 

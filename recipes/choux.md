@@ -1,13 +1,22 @@
+---
+layout: cook-mode
+---
+
 # Choux
 Adapted from Claire Saffitz, Smitten Kitchen
 
 ## Ingredients
+
+<div class="ingredients" markdown="1">
 - 1/2 c water (or mix with milk)
 - 1/4 tsp salt
 - 2 tsp sugar
 - 45g unsalted butter
 - 67g flour
 - 2 eggs
+</div>
+
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Steps
 - Bring the water, salt, sugar, butter to a simmer
