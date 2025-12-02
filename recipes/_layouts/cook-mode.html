@@ -2,7 +2,20 @@
 layout: default
 ---
 
-<script src="{{ '/assets/js/cook-mode-component.js' | relative_url }}"></script>
+<style>
+.ingredients {
+  list-style: none;
+  padding-left: 0;
+}
+.ingredients li {
+  margin-bottom: 0.25rem;
+}
+.ingredient-check {
+  margin-right: 0.5rem;
+}
+</style>
+
+<script src="{{ '/assets/js/recipes.js' | relative_url }}"></script>
 
 {{ content }}
 

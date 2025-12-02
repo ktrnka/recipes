@@ -58,3 +58,24 @@ class CookModeToggle extends HTMLElement {
 }
 
 customElements.define('cook-mode-toggle', CookModeToggle);
+
+// Add checkboxes to any <div class="ingredients"> with list items
+document.addEventListener('DOMContentLoaded', () => {
+  document
+    .querySelectorAll('.ingredients li')
+    .forEach(li => {
+      const label = document.createElement('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'ingredient-check';
+
+      // Move existing text into label
+      const text = document.createTextNode(li.textContent.trim());
+      label.appendChild(checkbox);
+      label.appendChild(text);
+
+      // Clear li and insert label
+      li.textContent = '';
+      li.appendChild(label);
+    });
+});

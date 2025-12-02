@@ -9,10 +9,12 @@ Adapted from Martin at King Arthur Flour, halved
 
 ## Ingredients
 
+<div class="ingredients" markdown="1">
 - 250g water
 - 250g bread flour
 - 3/8 tsp yeast (1.25g)
 - 1 tsp salt (5g)
+</div>
 
 <cook-mode-toggle></cook-mode-toggle>
 
