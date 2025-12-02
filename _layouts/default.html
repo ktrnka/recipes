@@ -1,0 +1,14 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- existing head stuff -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    {{ content }}
+
+    <!-- Cook mode script (load on all pages, or gate by a front-matter flag) -->
+    <script src="{{ '/assets/js/cook-mode.js' | relative_url }}"></script>
+  </body>
+</html>

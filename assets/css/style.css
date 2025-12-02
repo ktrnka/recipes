@@ -1,0 +1,10 @@
+#cook-toggle {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+#cook-toggle.cook-off { background: #b91c1c; }
+#cook-toggle.cook-on  { background: #15803d; }
