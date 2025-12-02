@@ -33,3 +33,7 @@ title: Recipes
 - [Kouign Amann](/recipes/kouign-amann)
 - [Meatballs](/recipes/meatballs)
 - [Pizza](/recipes/pizza)
+
+---
+
+[Unstructured notes](/recipes/unstructured_notes): These might be partial recipes or links to external recipes with notes.
