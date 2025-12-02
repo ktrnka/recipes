@@ -1,44 +1,44 @@
 class CookModeToggle extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: 'open' });
-    this.wakeLock = null;
-  }
-
-  connectedCallback() {
-    this.render();
-  }
-
-  async toggle() {
-    if (!('wakeLock' in navigator)) {
-      alert('Screen Wake Lock is not supported in this browser.');
-      return;
-    }
-
-    if (!this.wakeLock) {
-      try {
-        this.wakeLock = await navigator.wakeLock.request('screen');
-        this.wakeLock.addEventListener('release', () => {
-          this.wakeLock = null;
-          this.render();
-        });
-      } catch (err) {
-        console.error('Wake Lock error:', err.name, err.message);
-      }
-    } else {
-      try {
-        await this.wakeLock.release();
+    constructor() {
+        super();
+        this.attachShadow({ mode: 'open' });
         this.wakeLock = null;
-      } catch (err) {
-        console.error('Release error:', err.name, err.message);
-      }
     }
-    this.render();
-  }
 
-  render() {
-    const on = !!this.wakeLock;
-    this.shadowRoot.innerHTML = `
+    connectedCallback() {
+        this.render();
+    }
+
+    async toggle() {
+        if (!('wakeLock' in navigator)) {
+            alert('Screen Wake Lock is not supported in this browser.');
+            return;
+        }
+
+        if (!this.wakeLock) {
+            try {
+                this.wakeLock = await navigator.wakeLock.request('screen');
+                this.wakeLock.addEventListener('release', () => {
+                    this.wakeLock = null;
+                    this.render();
+                });
+            } catch (err) {
+                console.error('Wake Lock error:', err.name, err.message);
+            }
+        } else {
+            try {
+                await this.wakeLock.release();
+                this.wakeLock = null;
+            } catch (err) {
+                console.error('Release error:', err.name, err.message);
+            }
+        }
+        this.render();
+    }
+
+    render() {
+        const on = !!this.wakeLock;
+        this.shadowRoot.innerHTML = `
       <style>
         button {
           padding: 0.75rem 1.25rem;
@@ -52,9 +52,9 @@ class CookModeToggle extends HTMLElement {
       </style>
       <button>${on ? 'Cook mode: ON' : 'Cook mode: OFF'}</button>
     `;
-    this.shadowRoot.querySelector('button')
-      .onclick = () => this.toggle();
-  }
+        this.shadowRoot.querySelector('button')
+            .onclick = () => this.toggle();
+    }
 }
 
 customElements.define('cook-mode-toggle', CookModeToggle);
