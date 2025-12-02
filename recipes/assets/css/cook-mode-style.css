@@ -6,5 +6,5 @@
   cursor: pointer;
   color: white;
 }
-#cook-toggle.cook-off { background: #b91c1c; }
-#cook-toggle.cook-on  { background: #15803d; }
+#cook-toggle.cook-off { background: #666666; }
+#cook-toggle.cook-on  { background: #3f8257; }
