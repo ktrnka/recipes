@@ -1,3 +1,8 @@
+---
+title: Pan de cristal
+layout: default
+---
+
 # Pan de cristal
 
 Adapted from Martin at King Arthur Flour, halved
