@@ -14,9 +14,7 @@ Adapted from Martin at King Arthur Flour, halved
 - 3/8 tsp yeast (1.25g)
 - 1 tsp salt (5g)
 
-<button id="cook-toggle" class="cook-off">
-  Cook mode: OFF
-</button>
+<cook-mode-toggle></cook-mode-toggle>
 
 ## Directions
 
