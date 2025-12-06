@@ -16,7 +16,7 @@ Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 - 1/4 cups sugar
 - 1 cup room temp water
 - 3 tbsp melted, cooled butter, or just grated butter into the lukewarm dough
-- 1 1/2 tsp salt (5g)
+- 1 1/2 tsp salt (9g)
 - 423g flour
 </div>
 

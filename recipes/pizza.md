@@ -15,7 +15,7 @@ The same dough can be used for all kinds of pizza, but you may want to adjust th
 - bread flour until it's not tacky, or if you prefer to measure:
     - Neapolitan pizza: 365-395 g (about 3 cups)
     - Focaccia or Detroit-style pizza: 279-316 g (about 2.5 cups)
-- 9g (2 tsp) salt
+- 12g (2 tsp) salt
 </div>
 
 <cook-mode-toggle></cook-mode-toggle>
