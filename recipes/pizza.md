@@ -10,12 +10,12 @@ The same dough can be used for all kinds of pizza, but you may want to adjust th
 ### Ingredients
 
 <div class="ingredients" markdown="1">
-- 1 1/4 cup water (237 g)
-- 1 tsp yeast
+- 284 g water (1 1/4 cup) water
+- 3g (1 tsp) yeast
 - bread flour until it's not tacky, or if you prefer to measure:
     - Neapolitan pizza: 365-395 g (about 3 cups)
     - Focaccia or Detroit-style pizza: 279-316 g (about 2.5 cups)
-- 2 tsp salt
+- 9g (2 tsp) salt
 </div>
 
 <cook-mode-toggle></cook-mode-toggle>

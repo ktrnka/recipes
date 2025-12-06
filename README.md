@@ -18,3 +18,6 @@ Disadvantages vs Google Drive
 - Copy more of my old notes over
 - Dark mode to save battery
 - Repair/update the pizza dough recipe
+
+## Bugs
+- The checkbox-list doesn't work properly with nested lists. It just joins the nested items into the parent item without a li element or label+input type item
