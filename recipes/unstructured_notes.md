@@ -62,3 +62,34 @@ Notes:
 
 Retro:
 - I think 60% hydration with wheat flour is a bad combination because wheat soaks more. Something like 80% might be better
+
+## Cinnamon roll focaccia
+I used the [recipe from King Arthur Test Kitchen](https://www.kingarthurbaking.com/recipes/big-and-bubbly-cinnamon-roll-focaccia-recipe).
+
+### Attempt 1 notes
+
+Worked well
+
+- I let it rise quite a while and it was nice and fluffy
+- Baking in the cast iron skillet with a parchment square worked great. It came right out
+
+Didn't work so well
+- The sugar on the very top burned and the burned flavor was noticeacble. I should've tented tin foil over it or baked in the full sized oven not convection toaster oven.
+- The olive oil flavor seemed to compete with the topping flavor. It tasted a little weird, so I think it'd be better with a more neutral olive oil
+
+## Oatmeal raisin cookies
+From the [NYT recipe](https://cooking.nytimes.com/recipes/1018658-classic-oatmeal-raisin-cookies).
+
+### Attempt 1 at Ken and Lauren's
+
+Worked well
+- Delicious and stayed soft for a while
+
+Didn't work so well
+- I think we had to bake longer, maybe 15 min or so
+- The flavor felt a bit simple to me
+
+### Attempt 2 at home
+
+- Used nutmeg and cardamom for an interesting flavor profile. I'd suggest cutting the nutmeg a little. Maybe the recipe is designed for very stale nutmeg
+- They really flattened, especially in the convection toaster. On the latter batches, I used the full sized oven and that worked better but I had to wait longer for it to heat up. They were still flatter than attempt 1 though.
