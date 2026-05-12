@@ -37,3 +37,5 @@ title: Recipes
 ---
 
 [Unstructured notes](/recipes/unstructured_notes): These might be partial recipes or links to external recipes with notes.
+
+[How I write improvement notes](/recipes/improvement-notes): The lightweight note-taking approach I use to iterate on recipes.
