@@ -34,3 +34,8 @@ layout: cook-mode
 
 - For a spicier version, add various chili flakes with the butter and onion towards the end
 - The brand of crushed tomatoes has a big impact
+
+## References
+- [Roasted Tomato Soup (Bon Appetit)](https://www.bonappetit.com/recipe/roasted-tomato-soup)
+- [Easy Tomato Soup (Natasha's Kitchen)](https://natashaskitchen.com/tomato-soup-recipe/)
+- [Creamy Chipotle Tomato Soup (Blendtec)](https://www.blendtec.com/blogs/recipes/creamy-chipotle-tomato-soup)

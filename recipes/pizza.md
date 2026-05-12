@@ -87,6 +87,8 @@ If I remember correctly, the main challenge is getting both the top and bottom o
 - [Kenji pan pizza](https://youtu.be/HukqEjCPkhU?si=2YMN0VvExLuX1oym)
 - [Charlie Anderson's channel](https://www.youtube.com/@CharlieAndersonCooking) has a lot of good pizza videos
 - King Arthur Flour has some good ones too. I think I got the loaf pan idea from [this video](https://youtu.be/0mMVk5QK-tg?si=SCmvwEj9Vjpx97gq)
+- [Ken's Artisan Pizza Margherita](https://www.pdxmonthly.com/articles/2016/3/18/make-the-margherita-from-kens-artisan-pizza-at-home)
+- [The Best Pizza Sauce Requires One Ingredient and No Cooking](http://skillet.lifehacker.com/the-best-pizza-sauce-requires-one-ingredient-and-no-coo-1791307955)
 
 
 ## Notes

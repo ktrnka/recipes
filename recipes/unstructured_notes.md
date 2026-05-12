@@ -124,6 +124,10 @@ Basic recipe that worked:
 - 430°F, rotated halfway through
 - Result: didn't stick, bottom crisped up correctly
 
+### References
+- [Water Bagels (King Arthur Flour)](http://www.kingarthurflour.com/recipes/water-bagels-recipe)
+- [New York-Style Bagel Recipe](http://www.sophisticatedgourmet.com/2009/10/new-york-style-bagel-recipe/)
+
 ---
 
 ## Bagels (cinnamon raisin)
@@ -179,6 +183,11 @@ Notes from a few attempts at pain au chocolat using kouign-amann style laminated
 - Baker's chocolate works fine.
 - Egg yolk plus heavy cream makes a great glaze.
 
+### References
+- [Classic French Croissant Recipe (Weekend Bakery)](https://www.weekendbakery.com/posts/classic-french-croissant-recipe/)
+- [Another Round of Pain au Chocolat/Croissants: Feedback Welcome (r/pastry)](https://www.reddit.com/r/pastry/comments/1jtll1n/another_round_of_pain_au_chocolatcroissants/)
+- [Croissant/Lamination Mastery (r/pastry)](https://www.reddit.com/r/pastry/comments/1jw1ciu/croissantlamination_mastery/)
+
 ---
 
 ## Crumpets
@@ -222,6 +231,9 @@ From [King Arthur Flour crusty European-style rolls](https://www.kingarthurbakin
 - Butter the pan generously (no cornmeal needed).
 - Less sweet than actual English muffins, but the edges crisp up nicely.
 - Letting it over-rise and then setting it on the counter to preheat the oven caused it to sink - still tasted good though.
+
+### References
+- [English Muffins Recipe (King Arthur Baking)](https://www.kingarthurbaking.com/recipes/english-muffins-recipe)
 
 ---
 
@@ -274,6 +286,11 @@ Based on: 50g aged egg whites, 65g almond flour, 65g powdered sugar, 45g extra-f
 - Lemon buttercream (American): too sweet.
 - Coffee: can be gritty - try grinding finer.
 
+### References
+- [The Best French Macaron Recipe (Indulge With Mimi)](https://www.indulgewithmimi.com/the-best-macaron-recipe/)
+- [Macaron Troubleshooting Guide (Indulge With Mimi)](https://www.indulgewithmimi.com/macaron-troubleshooting-guide/)
+- [Macaron Troubleshooting (The Scranline)](https://thescranline.com/macaron-troubleshooting/)
+
 ---
 
 ## Melon pan
@@ -297,6 +314,9 @@ From [Just One Cookbook](https://www.justonecookbook.com/melon-pan/).
 - Couldn't find pumpernickel flour - substituted extra rye and flaxseed meal. Result was pretty good.
 - Dark crumb makes it hard to judge doneness by color - don't pull it early just because the top looks dark.
 - Used loaf pans instead of a covered dutch oven. Very little oven spring.
+
+### References
+- [Pumpernickel Boule (King Arthur Flour)](https://www.kingarthurflour.com/recipes/pumpernickel-boule-recipe)
 
 ---
 
@@ -335,3 +355,6 @@ To improve
 - Added flaxseed meal for texture and flavor.
 - Sesame seed topping: wet the dough then roll in seeds - they toast nicely and add a lot of flavor.
 - Make smaller loaves - two loaves that touch during the second rise messes up the bake.
+
+### References
+- [Hearth Bread (King Arthur Flour)](http://www.kingarthurflour.com/recipes/hearth-bread-recipe)

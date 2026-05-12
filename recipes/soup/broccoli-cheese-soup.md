@@ -52,3 +52,6 @@ Modifications from http://www.foodnetwork.com/recipes/food-network-kitchens/almo
 - Salt was important for flavor balance.
 - Still not as good as the original; possibly due to weak bay leaves or insufficient simmering time.
 - Consider using fresher bay leaves or longer simmering.
+
+## References
+- [Slow Cooker Three Cheese Broccoli Soup (Betty Crocker)](http://www.bettycrocker.com/recipes/slow-cooker-three-cheese-broccoli-soup/7f3e972e-f269-4eea-b7d6-b72957a5b815)

@@ -47,3 +47,6 @@ I forget exactly but it's shaped something like choco croissants.
 When shaping, make it into a shape sorta like choco croissants. Do that on lots of semolina. Then rest for 30-60 min. Then stretch/flatten it. Then dimple it and drizzle olive oil and top with pepper and coarse salt. Garlic powder works wonders too.
 
 Bake at 450+ for 18-20 min. In the toaster, use super convection.
+
+## References
+- [King Arthur Baking — Pan de Cristal](https://www.kingarthurbaking.com/recipes/pan-de-cristal-recipe)

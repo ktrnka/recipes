@@ -44,3 +44,6 @@ Adapted from Claire Saffitz, Smitten Kitchen
 - [Smitten Kitchen](https://smittenkitchen.com/2009/01/sugar-puffs/)
 - [Serious Eats](https://www.seriouseats.com/choux-pastry)
 - [Roy from Reddit](https://www.reddit.com/r/Baking/comments/koxzzj/how_to_make_perfect_choux_pastry_with_all_tips/)
+- [Sally's Baking Addiction](https://sallysbakingaddiction.com/choux-pastry/)
+- [Choux au Craquelin with Salted Caramel Diplomat Creme (r/pastry)](https://www.reddit.com/r/pastry/comments/1julz2x/choux_au_craquelin_with_salted_caramel_diplomat/)
+- [Bouchon's Gougeres](https://3jamigos.com/happy-new-year-bouchons-gougeres/)

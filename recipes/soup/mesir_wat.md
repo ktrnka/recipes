@@ -28,4 +28,5 @@ layout: cook-mode
 - I usually serve with naan, but you can make injera at home too.
 
 ## References
-- [Daring Gourmet](https://www.daringgourmet.com/misir-wat-ethiopian-spiced-red-lentils/)
+- [Daring Gourmet — Misir Wat](https://www.daringgourmet.com/misir-wat-ethiopian-spiced-red-lentils/)
+- [Daring Gourmet — Niter Kibbeh (Ethiopian Spiced Clarified Butter)](https://www.daringgourmet.com/niter-kibbeh-ethiopian-spiced-clarified-butter/)
