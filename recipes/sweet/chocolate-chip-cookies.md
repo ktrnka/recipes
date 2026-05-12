@@ -26,4 +26,4 @@ layout: cook-mode
 2. Let it cool down a bit.
 3. Mix in chocolate chunks.
 4. Let chill overnight in the fridge.
-5. Bake at 375°F until it's right.
+5. Bake at 375°F for about 15 minutes. They'll look slightly underdone in the center when you pull them - that's correct.

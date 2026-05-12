@@ -25,13 +25,14 @@ Adapted from Claire Saffitz, Smitten Kitchen
 - Beat eggs, add them to the paste, whisk aggressively until it comes together, switch from whisk back to spoon/spatula
 - Pipe it onto a tray
 - Use the leftover beaten egg with some milk to make an egg wash. Apply with your fingers while pushing the peaks down
-- Bake at 400 for 25-35 minutes
+- Bake at 400°F for 25-35 minutes. In a convection toaster oven: 400°F with convection for about 15 min then drop to 375°F to finish - this gets proper puffing without overbaking.
 
 ## Variations
 - Add 5 oz cheese into the batter, preferably with a fine grater
 
 ## Tips / notes
-- When adding cheese, it thickens a bit much which I think affected the texture (didn't get the huge internal bubble)
+- Use AP flour, not bread flour. Bread flour made them flat with no pocket.
+- When adding cheese, it thickens a bit much which I think affected the texture (didn't get the huge internal bubble). Adding a splash of water to loosen the paste after mixing in cheese fixes this.
 
 ## Related: Whipped cream
 - 1 c heavy cream or whipping cream

@@ -28,6 +28,9 @@ Adapted from Martin at King Arthur Flour, halved
 - Get a big tupperware, mix in that, then fold in that
 - Can replace 50-100g of water/flour with starter for better flavor. Reduce yeast a little if doing that
 - Can add 25-50g of rye, wheat, or spelt to give a more complex flavor
+- Pop any large surface bubbles just before baking - they'll burn before the inside cooks through
+- Steam is important for browning and crust development. A tray of water in the oven makes a meaningful difference.
+- In a toaster oven: the top browns fast (around 7-12 min). Lower the rack, and once the top is golden, lower the temp to 425°F or tent foil to finish baking without over-browning.
 
 ## Shaping variations
 

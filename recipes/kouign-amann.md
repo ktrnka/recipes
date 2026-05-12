@@ -59,7 +59,7 @@ If you're doing this, you'll need to calculate the size of the rectangle based o
 1. Roll dough so short side is about 24 cm
 2. Cut strips about 6 cm wide
 3. Butter pan and line with parchment
-4. Sprinkle sugar and spices on dough strip
+4. Sprinkle sugar and spices on dough strip. For cardamom sugar: about 3 tbsp cardamom per 3/4 cup fine sugar.
 5. Fold strip in half lengthwise
 6. Fold 4 times on table before transferring to pan
 7. Bake as above for 40 minutes

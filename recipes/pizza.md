@@ -35,6 +35,7 @@ The same dough can be used for all kinds of pizza, but you may want to adjust th
     - Up to 1/4 cup semolina (reduce flour to compensate): Adds a little flavor
     - Some starter: If you need the dough sooner this can get the flavor ready sooner
     - Parmigiano Reggiano: Add just a little on top before the bake for zing
+- Martin Phillip (KAF) laminated dough: similar to croissant lamination, folding fat into the dough to create flakier, more layered crust. Worth trying.
 
 ## Neapolitan pizza
 This requires high heat, so it depends on your oven setup. It uses fresh mozzarella.
@@ -46,7 +47,7 @@ This is what I currently use and it works well. I prefer it over a full oven bec
 
 1. Preheat the oven to 480°F or so, convection on, rack on low
 2. Stretch out the pizza ball over semolina, then transfer to a pizza pan.
-3. Bake for about 10 minutes. You should get some small dark spots but stop before it gets too dark.
+3. Bake with convection on for about 1 minute to quickly bring the pizza up to temp, then turn convection off and bake for another 8-9 minutes. You should get some small dark spots but stop before it gets too dark.
 
 ### Pizza stone in a conventional oven
 1. Preheat the oven to 450-500°F. Note that the stone will take longer to heat up than the oven, so you may want to preheat for 30 minutes.
@@ -59,6 +60,9 @@ This is what I currently use and it works well. I prefer it over a full oven bec
 #### Tips
 - When you open the oven it lets out a lot of heat so try to be quick.
 - To keep the crust airy, be sure not to press down on the crust part when stretching it out. Initially press down in a ring just inside the crust then you can pull gently from the underside while turning. Alternatively, if it's not sticking to the surface at all you can turn and press outwards while you turn.
+- Turn convection off for the actual bake - it browns the cheese far faster than the crust and you'll end up with burnt cheese and pale crust.
+- Take the dough out of the fridge when you start preheating the oven, so it has ~30 min to warm up before baking. Cold dough resists stretching and doesn't cook as evenly.
+- At very high temps (520°F+), skip the parchment and slide the pizza directly onto the stone - the results are much better and 10-11 min is enough.
 
 ## Focaccia pizza / Detroit-like
 1. Coat the inside of a loaf pan in olive oil. Make sure it coats all surfaces, even if the pan feels nonstick-ish

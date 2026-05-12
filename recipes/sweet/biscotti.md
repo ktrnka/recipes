@@ -43,3 +43,4 @@ Makes about 2 dozen biscotti.
 - Slice the biscotti with a serrated knife.
 - I use my finger to help measure the width of the pieces.
 - Eat the end pieces and then people will wonder how you make the rest of them that shape.
+- Use an electric coffee/spice grinder to chop nuts - hand-chopping gives inconsistently-sized pieces and is slow.

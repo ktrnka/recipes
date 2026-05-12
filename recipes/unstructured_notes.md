@@ -93,3 +93,245 @@ Didn't work so well
 
 - Used nutmeg and cardamom for an interesting flavor profile. I'd suggest cutting the nutmeg a little. Maybe the recipe is designed for very stale nutmeg
 - They really flattened, especially in the convection toaster. On the latter batches, I used the full sized oven and that worked better but I had to wait longer for it to heat up. They were still flatter than attempt 1 though.
+
+---
+
+## Bagels
+
+Basic recipe that worked:
+- 3/4 cup water, 1 3/8 tsp yeast, 2 cups flour, 2 tsp brown sugar (or molasses), 1 tsp salt
+- Mix, cold ferment overnight, shape, proof 1-2 hr, boil 1 min per side, egg wash, coat with toppings, bake 450°F for 20 min
+
+### Attempt notes
+
+- Crumb too plain? Try longer ferment or molasses instead of brown sugar for better flavor and color.
+- The yeast dying is a real risk - check it's alive before committing to the batch. Dead yeast = dense bagels that don't float in the water.
+- Everything seasoning shaker works well.
+- Egg wash gives better crust than going without - thinner crust without it, and more burst spots.
+- Boiling in a shallow pan risks sticking to the bottom and to parchment.
+- The nonstick foil worked, but buttered foil burned more. Parchment can stick too - better parchment helps.
+- Starter (instead of commercial yeast) gives good sour flavor; results varied - Lauren liked it less sour, I liked it more.
+- Proofing more after shaping gives better air bubbles in the crumb.
+- Top oven + higher rack helps even the bake - less bottom burning.
+- Using a spatula to transfer shaped bagels to the pot (instead of picking up by hand) keeps them from deflating.
+- Wiping flour off the surface after shaping helped with the boiling.
+
+### Best results so far
+
+- Cold-fermented dough with sourdough starter
+- Egg wash
+- Parchment on a higher rack in the bottom oven
+- 430°F, rotated halfway through
+- Result: didn't stick, bottom crisped up correctly
+
+---
+
+## Bagels (cinnamon raisin)
+From [Sally's Baking Addiction](https://sallysbakingaddiction.com/homemade-cinnamon-raisin-bagels/).
+
+- Didn't use enough cinnamon sugar - they came out underseasoned.
+- Suspect the starter wasn't active enough (bagels didn't float). Bottoms overcooked from trying to keep them off the pot bottom.
+
+---
+
+## Baguettes / French bread
+
+Six versions of iteration; got significantly better over time.
+
+### Key lessons learned
+
+- **Salt timing**: Add salt at the right time during kneading, not after. Late salt creates uneven flavor - bland then a wave of salt.
+- **Steam**: Critical for a caramel-colored crust. Boiling a kettle and adding the water to a pan just after preheat works well. If the steam evaporates before baking, the crust looks burnt/floury rather than caramelized.
+- **Slashing**: Slash deeply, more lengthwise than perpendicular. Wetting the knife helps. Faster slashing helps. You want the slash to stay open and create "ears" for oven spring. More surface tension while shaping also helps the slash work properly.
+- **Thinner baguettes** bake much better - less likely to burst on the sides and better crust development.
+- **Preferment**: A second-day sponge or overnight preferment adds a noticeable flavor. A little yeast in the preferment helps rising.
+- **High temp**: 550°F for 20-23 min gave great crust development.
+- **Don't put a baking sheet under the bread tray** - it shields the bottom from heat and leaves it too soft.
+
+---
+
+## Challah
+Adapted from [Smitten Kitchen](https://smittenkitchen.com/2008/09/best-challah-egg-bread/).
+
+Halved recipe that worked:
+- 5.5g yeast, 6g sugar (for blooming), 207g lukewarm water
+- 32.5g oil, 2 eggs, 50g sugar, 7g salt, 500-531g bread flour
+- 1 egg for brushing
+
+### Tips
+
+- Double-brush the shaped loaf for better color.
+- Don't overbake - it's easy to think it needs more when it's already done.
+- The bottom burns easily. Insulate the bottom well (use a second pan below or lower rack), and place another pan above for the last stretch if the top is getting too dark.
+- More honey/sugar gives noticeably better flavor.
+- Limiting convection while baking helps even browning.
+- Overnight cold ferment for the primary rise develops flavor.
+
+---
+
+## Chocolate croissants
+
+Notes from a few attempts at pain au chocolat using kouign-amann style laminated dough.
+
+- Rolling the dough out to full size is a fight - the dough warms up and fights back. Work quickly or rest it in the fridge if it resists.
+- Proofing: 2.5 hr proof then fridge (2 hr wasn't enough). They wrinkled overnight in the oven - possible over-proofing.
+- Cutting 4 oz of chocolate into sticks: 16 sticks is more manageable than 20. Chocolate breaks a lot but it works out.
+- Baker's chocolate works fine.
+- Egg yolk plus heavy cream makes a great glaze.
+
+---
+
+## Crumpets
+From [profoodhomemade.com](https://profoodhomemade.com/crumpets/).
+
+- Grease the cookie cutter rings well - they get very hot and stuck dough is a hassle to deal with.
+- The tops didn't look like traditional crumpets (not enough holes).
+- Takes longer to cook than you'd expect.
+
+---
+
+## Dinner rolls (crusty European style)
+From [King Arthur Flour crusty European-style rolls](https://www.kingarthurbaking.com/recipes/crusty-european-style-hard-rolls-recipe).
+
+- These came out very tasty with good flavor - more like rustic bread than a soft roll.
+- Used sourdough starter instead of the preferment. Surprisingly not very sour.
+- Water wash was okay; egg wash or milk wash would probably be better.
+- Would add 5% wheat or spelt flour for a little more complexity.
+
+---
+
+## Dutch oven bread
+
+### Attempt notes
+
+- **Cold start vs. preheated**: Starting from cold in the dutch oven works, but a preheated dutch oven at 475°F gives better color.
+- **Without parchment**: Used cornmeal instead once - don't put the bread directly on the bottom at high temp, the bottom will burn.
+- **Parchment sling**: Cut parchment with handles to lower the dough in safely.
+- **Timing**: ~40 min covered + 10-15 min with the lid off works reasonably well. Too long uncovered can burn the bottom while the sides stay light.
+- **Over-proofing**: Caused one loaf not to bloom and the top/sides to stay light.
+- **Rack position**: Low rack in both covered and uncovered phases. If the bottom burns, try a higher rack or leave it in the dutch oven without the lid for the uncovered phase.
+- **Flour**: King Arthur flour noticeably better than Stone Burr for flavor.
+
+---
+
+## English muffin bread
+
+- Cut about 3/4 cup of flour from the recipe - the full amount made it too dense.
+- Knead minimally just to bring it together.
+- Let rise about 1 hour in a slightly preheated oven.
+- Butter the pan generously (no cornmeal needed).
+- Less sweet than actual English muffins, but the edges crisp up nicely.
+- Letting it over-rise and then setting it on the counter to preheat the oven caused it to sink - still tasted good though.
+
+---
+
+## Focaccia
+
+### Version 1
+- Needed more salt on top. Add salt after oiling so it sticks.
+- Great bottom crunch, top was too soft.
+- Flavor was weak - needed more oil in the dough and better-prepared rosemary.
+
+### Version 2
+- Better air bubbles by shaping before the second rise.
+- Better flavor with much more olive oil and rosemary in the dough.
+- Top still didn't get a crispy crust.
+
+### Version 3
+- Reduced rosemary to 1/4 tsp - better flavor balance.
+- Top oven rack gave better top browning; bottom was softer.
+- More hydrated dough helped the crumb, though kneading was tough.
+- Longer proofing improved air bubbles.
+
+---
+
+## Loaf pan focaccia
+
+- Didn't rise enough - rushed the proof.
+- Delicious and crispy on the edges.
+- Stuck to the pan despite generous oil - either grease more aggressively or use parchment.
+
+---
+
+## Macarons
+Based on: 50g aged egg whites, 65g almond flour, 65g powdered sugar, 45g extra-fine sugar, 1/8 tsp cream of tartar.
+
+### Technique lessons (across 5 attempts)
+
+- **Bowl matters**: Glass bowl works much better than metal for beating egg whites - the sloping sides help.
+- **Piping**: Watch videos and use a printed template under the parchment. Smooth, consistent circles are achievable with practice.
+- **Tapping**: Tap the baking sheet firmly after piping to pop nipples and bubbles on top.
+- **Macaronage**: Follow the folding guides carefully - undermixing causes hollow tops, overmixing causes flat cookies with no feet.
+- **Sifting**: Sift at the very end and shake up the dry ingredients in the sifter.
+- **Skin**: Let them rest 30 min until a skin develops before baking - 320°F for 12-14 min.
+- **Store brand waxed paper**: Awful for piping bags - use real piping bags.
+- **Aged egg whites**: Slightly easier to work with but makes little difference once you're used to it.
+
+### Fillings
+
+- Raspberry-white chocolate filling: amazing. Simmer longer with a pinch of salt to concentrate the raspberry flavor. Chill thoroughly before piping - runny filling is a disaster.
+- Dark chocolate ganache: good for balancing the sweetness.
+- Lemon buttercream (American): too sweet.
+- Coffee: can be gritty - try grinding finer.
+
+---
+
+## Melon pan
+From [Just One Cookbook](https://www.justonecookbook.com/melon-pan/).
+
+### Key lessons
+
+- Refrigerate the cookie dough long enough before wrapping - if it's too soft it's very hard to handle.
+- Proof the bread dough well - the result is much fluffier with a longer proof.
+- Skipping the sugar coating on the cookie dough still tastes great.
+- Wrapping the cookie dough around the bread dough like a dumpling fold works well.
+- 370°F for 20 min gives a fully baked result.
+- Grating the butter into the cookie dough (then mixing in) works reasonably well.
+- Adding ~50g almond flour to the cookie dough is a nice variation.
+- The dough is more forgiving than it seems - slight measurement errors didn't ruin it.
+
+---
+
+## Pumpernickel bread
+
+- Couldn't find pumpernickel flour - substituted extra rye and flaxseed meal. Result was pretty good.
+- Dark crumb makes it hard to judge doneness by color - don't pull it early just because the top looks dark.
+- Used loaf pans instead of a covered dutch oven. Very little oven spring.
+
+---
+
+## Rye bread
+
+- Don't add oil to the bowl for proofing - it makes shaping harder. Skip oil entirely or just grease the bowl lightly.
+- The single full-size loaf is very large and affects baking time - consider splitting into two.
+- The bread tasted better on day 2 once any slight bitterness mellowed.
+
+---
+
+## Semolina cheese bread
+
+- Used Italian cheese mix from Safeway instead of proper semolina or nice cheese. Turned out great anyway.
+- 450°F for ~30 min gave a very fluffy but rich loaf.
+- Would try higher temp and actual semolina flour next time.
+
+---
+
+## Cranberry walnut bread
+
+Worked well
+- Pan-roasted walnuts in particular added great flavor.
+
+To improve
+- Not enough browning - rushed the bake and forgot to raise the temp when shaping it into a batard.
+- Not enough air pockets - rushed the proof.
+- Walnuts too big caused the dough to rip while shaping - chop smaller.
+- Craisins were a bit too sweet and simple - consider real dried cranberries.
+
+---
+
+## White rustic bread
+
+- Used a "hearth bread" approach with a preferment (1 cup water, 1 cup bread flour, 1 tsp yeast).
+- Added flaxseed meal for texture and flavor.
+- Sesame seed topping: wet the dough then roll in seeds - they toast nicely and add a lot of flavor.
+- Make smaller loaves - two loaves that touch during the second rise messes up the bake.

@@ -35,5 +35,9 @@ Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-n
 - Flatten each with a rolling pin until pretty thin
 - Cook on a hot cast iron - for me, setting 7 on the medium sized burner works. It helps to cover it while cooking. It only takes a minute or so per side.
 
+## Tips
+- Stick to cast iron - the toaster oven doesn't get the right color at all, even on max heat with convection.
+- For garlic butter: use more garlic than you think and add a pinch of salt.
+
 ## Adjustments
 - Yogurt: If plain isn't available, lemon or lime works well

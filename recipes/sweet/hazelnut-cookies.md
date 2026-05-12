@@ -80,6 +80,9 @@ The goal with the revisions is to reduce guesswork.
 - Dec 2025: 
     - I used too little flour and it was far too moist. They were hard to handle and flattened a lot. I added more flour in later batches and that was better but they were not sweet enough really, or that nutty.
     - Baking on parchment is nicer
+- If using pre-ground hazelnut flour/meal instead of freshly grinding hazelnuts, the dough may be far too dry. Add softened butter a tablespoon at a time (or an extra egg) until it just comes together.
+- Go light on the milk in the egg wash - a few drops is enough. Too much makes the wash too thin.
+- May benefit from slightly higher temperature or a minute or two longer than the 12-14 min baseline.
 
 
 # References to check on

@@ -36,4 +36,6 @@ Notes from [Niffa](https://rainbowplantlife.com/how-to-make-amazing-hummus-at-ho
 
 ## Tips
 - Cayenne works better than other peppers to diffuse the heat throughout this recipe
-- The chickpea leftovers and such form a sort of glue that tends to gunk up everything
+- Aleppo pepper flakes on top adds a nice color and mild heat
+- Lean toward the higher end of the lemon juice (6 tbsp or more) and garlic (5-6 cloves) - the full amounts make a bigger difference than you'd think
+- The chickpea leftovers and such form a sort of glue that tends to gunk up everything - the immersion blender in particular sticks badly
