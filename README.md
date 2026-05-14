@@ -15,7 +15,11 @@ Disadvantages vs Google Drive
 
 # TODO
 
-## Recipe measurement improvements
+## To add
+Something on "general bread" like baguettes, boules, etc that covers
+  1. How to get good flavor
+  2. Shaping
+  3. Basics like temperature vs distance to center
 
 ### Need weight measurements added:
 - **naan.md**: Add weights for water (1/2 c = ~114g), flour (~2 c)
@@ -44,8 +48,9 @@ Disadvantages vs Google Drive
 
 ## Other TODOs
 - Ensure that more recipes have volume measurements if I'm traveling without a scale
-- Copy more of my old notes over
 - Dark mode to save battery
+- Review recipes for folder structure
+- Expand the pizza variations
 
 ## Bugs
 - The checkbox-list doesn't work properly with nested lists. It just joins the nested items into the parent item without a li element or label+input type item
