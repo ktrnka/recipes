@@ -1,0 +1,344 @@
+---
+title: Bread Calculator
+layout: page
+---
+
+<style>
+.bread-calc {
+  max-width: 520px;
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.field-label {
+  flex: 0 0 175px;
+  font-size: 0.95rem;
+}
+
+.field-control {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type="number"] {
+  width: 5rem;
+  padding: 0.3rem 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="range"] {
+  flex: 1;
+  cursor: pointer;
+}
+
+.yeast-group {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.yeast-group label {
+  cursor: pointer;
+}
+
+.yeast-group input[type="radio"] {
+  display: none;
+}
+
+.yeast-group input[type="radio"] + span {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+  user-select: none;
+}
+
+.yeast-group input[type="radio"]:checked + span {
+  background: #3f8257;
+  color: white;
+  border-color: #3f8257;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.25rem 0;
+}
+
+.outputs {
+  margin-top: 0.5rem;
+}
+
+.dough-total {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.output-row {
+  display: flex;
+  align-items: baseline;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.output-name {
+  flex: 0 0 140px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.output-grams {
+  flex: 0 0 55px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.output-volume {
+  margin-left: 1rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+@media (max-width: 480px) {
+  .field-label {
+    flex: 0 0 145px;
+    font-size: 0.875rem;
+  }
+}
+</style>
+
+<div class="bread-calc">
+
+  <div class="field-row">
+    <div class="field-label">Cooked weight (g)</div>
+    <div class="field-control">
+      <input type="number" id="cooked-weight" min="100" max="2000" step="25">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Bake loss (%)</div>
+    <div class="field-control">
+      <input type="number" id="bake-loss" min="5" max="25" step="1">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Hydration (<span id="hydration-val"></span>%)</div>
+    <div class="field-control">
+      <input type="range" id="hydration" min="55" max="85" step="1">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Salt (%)</div>
+    <div class="field-control">
+      <input type="number" id="salt-pct" min="0.5" max="3.5" step="0.1">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Starter (g)</div>
+    <div class="field-control">
+      <input type="number" id="starter-g" min="0" max="400" step="5">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Yeast</div>
+    <div class="field-control yeast-group">
+      <label><input type="radio" name="yeast" value="0"><span>none</span></label>
+      <label><input type="radio" name="yeast" value="0.25"><span>¼ tsp</span></label>
+      <label><input type="radio" name="yeast" value="0.5"><span>½ tsp</span></label>
+      <label><input type="radio" name="yeast" value="1"><span>1 tsp</span></label>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <div class="field-row">
+    <div class="field-label">Rye flour (<span id="rye-val"></span>%)</div>
+    <div class="field-control">
+      <input type="range" id="rye-pct" min="0" max="30" step="5">
+    </div>
+  </div>
+
+  <div class="field-row">
+    <div class="field-label">Whole wheat (<span id="wheat-val"></span>%)</div>
+    <div class="field-control">
+      <input type="range" id="wheat-pct" min="0" max="30" step="5">
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <div class="outputs" id="outputs"></div>
+
+</div>
+
+<script>
+(function () {
+  // ── Tunable defaults ─────────────────────────────────────────────────────────
+  // These set the starting values when the page loads. All are also editable via
+  // the UI — change these when you want a different starting point.
+  const DEFAULTS = {
+    cookedWeight:     600,   // g   target baked loaf weight
+    bakeLoss:          12,   // %   moisture lost during baking (typical: 10–15%)
+    hydration:         72,   // %   water / flour by weight
+    salt:               2,   // %   salt / flour by weight (typical: 1.8–2.2%)
+    starter:           75,   // g   starter added as-is (not decomposed into flour+water)
+    starterHydration: 100,   // %   flour:water ratio of your starter; reserved for future use
+    yeast:           0.25,   // tsp instant yeast; set to 0 for starter-only leavening
+    ryePct:             0,   // %   rye as share of total flour
+    wheatPct:           0,   // %   whole wheat as share of total flour
+  };
+
+  // ── Volume conversion factors ─────────────────────────────────────────────────
+  // From conversions.md. Adjust if your cups or measuring spoons differ.
+  const CONV = {
+    flourGPerCup:  120,   // g per cup of flour
+    waterGPerCup:  227,   // g per cup of water
+    saltGPerTsp:     6,   // g per tsp of fine salt
+    yeastGPerTsp:    3,   // g per tsp of instant yeast
+  };
+  // ─────────────────────────────────────────────────────────────────────────────
+
+  // [decimal, unicode fraction string]
+  const FRACS = [
+    [0,     ''],
+    [1/8,   '⅛'],
+    [1/4,   '¼'],
+    [1/3,   '⅓'],
+    [3/8,   '⅜'],
+    [1/2,   '½'],
+    [5/8,   '⅝'],
+    [2/3,   '⅔'],
+    [3/4,   '¾'],
+    [7/8,   '⅞'],
+    [1,     ''],
+  ];
+
+  function nearestFrac(rem) {
+    return FRACS.reduce((best, f) =>
+      Math.abs(f[0] - rem) < Math.abs(best[0] - rem) ? f : best
+    );
+  }
+
+  function toCups(grams, gPerCup) {
+    const cups = grams / gPerCup;
+    const whole = Math.floor(cups);
+    const [fracVal, fracStr] = nearestFrac(cups - whole);
+    const w = fracVal === 1 ? whole + 1 : whole;
+    const f = fracVal === 1 ? '' : fracStr;
+    if (w === 0 && f === '') return '< ⅛ cup';
+    const unit = (w === 1 && f === '') ? 'cup' : 'cups';
+    if (w === 0) return `≈ ${f} cup`;
+    if (f === '') return `≈ ${w} ${unit}`;
+    return `≈ ${w} ${f} cups`;
+  }
+
+  function toSmallVol(grams, gPerTsp) {
+    const tsp = grams / gPerTsp;
+    if (tsp >= 3) {
+      const tbsp = tsp / 3;
+      const whole = Math.floor(tbsp);
+      const [fracVal, fracStr] = nearestFrac(tbsp - whole);
+      const w = fracVal === 1 ? whole + 1 : whole;
+      const f = fracVal === 1 ? '' : fracStr;
+      if (w === 0) return f ? `≈ ${f} tbsp` : '< ¼ tbsp';
+      return f ? `≈ ${w} ${f} tbsp` : `≈ ${w} tbsp`;
+    }
+    const whole = Math.floor(tsp);
+    const [fracVal, fracStr] = nearestFrac(tsp - whole);
+    const w = fracVal === 1 ? whole + 1 : whole;
+    const f = fracVal === 1 ? '' : fracStr;
+    if (w === 0 && f === '') return '< ¼ tsp';
+    if (w === 0) return `≈ ${f} tsp`;
+    if (f === '') return `≈ ${w} tsp`;
+    return `≈ ${w} ${f} tsp`;
+  }
+
+  function yeastLabel(tsp) {
+    if (tsp === 0) return '';
+    if (tsp === 0.25) return '¼ tsp';
+    if (tsp === 0.5) return '½ tsp';
+    return tsp + ' tsp';
+  }
+
+  function row(name, grams, vol) {
+    return `<div class="output-row">
+      <div class="output-name">${name}</div>
+      <div class="output-grams">${grams !== null ? grams + 'g' : ''}</div>
+      <div class="output-volume">${vol}</div>
+    </div>`;
+  }
+
+  function calculate() {
+    const cookedWeight = parseFloat(document.getElementById('cooked-weight').value) || DEFAULTS.cookedWeight;
+    const bakeLoss    = parseFloat(document.getElementById('bake-loss').value)    || DEFAULTS.bakeLoss;
+    const hydration   = parseFloat(document.getElementById('hydration').value)    || DEFAULTS.hydration;
+    const saltPct     = parseFloat(document.getElementById('salt-pct').value)     || DEFAULTS.salt;
+    const starterG    = parseFloat(document.getElementById('starter-g').value)    || 0;
+    const yeastTsp    = parseFloat(document.querySelector('input[name="yeast"]:checked').value);
+    const ryePct      = parseFloat(document.getElementById('rye-pct').value)      || 0;
+    const wheatPct    = parseFloat(document.getElementById('wheat-pct').value)    || 0;
+
+    document.getElementById('hydration-val').textContent = hydration;
+    document.getElementById('rye-val').textContent = ryePct;
+    document.getElementById('wheat-val').textContent = wheatPct;
+
+    const yeastG = yeastTsp * CONV.yeastGPerTsp;
+    const doughWeight = cookedWeight / (1 - bakeLoss / 100);
+    const baseWeight  = doughWeight - starterG - yeastG;
+    const fTotal      = baseWeight / (1 + hydration / 100 + saltPct / 100);
+
+    const water      = Math.round(fTotal * (hydration / 100));
+    const saltG      = Math.round(fTotal * (saltPct / 100));
+    const breadFlour = Math.round(fTotal * ((100 - ryePct - wheatPct) / 100));
+    const ryeFlour   = Math.round(fTotal * (ryePct / 100));
+    const wheatFlour = Math.round(fTotal * (wheatPct / 100));
+
+    let html = `<div class="dough-total">Dough weight: ~${Math.round(doughWeight)}g</div>`;
+    html += row('Water',        water,      toCups(water, CONV.waterGPerCup));
+    html += row('Bread flour',  breadFlour, toCups(breadFlour, CONV.flourGPerCup));
+    if (ryeFlour > 0)   html += row('Rye flour',   ryeFlour,   toCups(ryeFlour, CONV.flourGPerCup));
+    if (wheatFlour > 0) html += row('Whole wheat', wheatFlour, toCups(wheatFlour, CONV.flourGPerCup));
+    html += row('Salt',         saltG,      toSmallVol(saltG, CONV.saltGPerTsp));
+    if (starterG > 0)   html += row('Starter',     Math.round(starterG), '');
+    if (yeastTsp > 0)   html += row('Yeast',        null, yeastLabel(yeastTsp));
+
+    document.getElementById('outputs').innerHTML = html;
+  }
+
+  function init() {
+    document.getElementById('cooked-weight').value = DEFAULTS.cookedWeight;
+    document.getElementById('bake-loss').value     = DEFAULTS.bakeLoss;
+    document.getElementById('hydration').value     = DEFAULTS.hydration;
+    document.getElementById('salt-pct').value      = DEFAULTS.salt;
+    document.getElementById('starter-g').value     = DEFAULTS.starter;
+    document.getElementById('rye-pct').value       = DEFAULTS.ryePct;
+    document.getElementById('wheat-pct').value     = DEFAULTS.wheatPct;
+    const yeastRadio = document.querySelector(`input[name="yeast"][value="${DEFAULTS.yeast}"]`);
+    if (yeastRadio) yeastRadio.checked = true;
+  }
+
+  document.querySelectorAll('.bread-calc input').forEach(el =>
+    el.addEventListener('input', calculate)
+  );
+  init();
+  calculate();
+}());
+</script>

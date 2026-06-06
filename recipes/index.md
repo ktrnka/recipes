@@ -10,6 +10,8 @@ title: Recipes
 - [Naan](/recipes/bread/naan)
 - [Pan de Cristal](/recipes/bread/pan-de-cristal)
 
+**Tools:** [Bread Calculator](/recipes/bread/calculator)
+
 ## Soup
 - [Broccoli Cheese Soup](/recipes/soup/broccoli-cheese-soup)
 - [Chili](/recipes/soup/chili)
