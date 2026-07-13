@@ -30,6 +30,7 @@ title: Recipes
 - [Snickerdoodles](/recipes/sweet/snickerdoodles)
 
 ## Other
+- [Air-fryer Green Beans](/recipes/air-fryer-green-beans)
 - [Choux](/recipes/choux)
 - [Hummus](/recipes/hummus)
 - [Kouign Amann](/recipes/kouign-amann)
