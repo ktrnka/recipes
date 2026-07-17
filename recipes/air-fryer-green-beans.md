@@ -43,13 +43,13 @@ Pick one per batch. *Before* = toss on with the oil before cooking. *After* = of
 - **Before:** 1/8 tsp each smoked paprika, garlic powder, ground cumin
 - **After (optional):** a squeeze of lime
 
-> Keith: This was straight fire.
+> Verdict: Amazing, I could eat this every day.
 
 ### Lemon-oregano-garlic — bright, herby
 - **Before:** 1/8 tsp each garlic powder, onion powder, dried oregano
 - **After:** a squeeze of lemon. It relies on the acid, so if it tastes flat add more lemon, not more spice.
 
-> Keith: This was also fire.
+> Verdict: Also amazing and I could eat this every day.
 
 ### Cumin-lime — warm and tangy (UNTESTED)
 - **Before:** 1/8 tsp each ground cumin and garlic powder, plus a lighter pinch of smoked paprika
@@ -59,15 +59,17 @@ Pick one per batch. *Before* = toss on with the oil before cooking. *After* = of
 - **Before:** oil only, *no salt* (the soy salts it)
 - **After:** ~1 tsp soy sauce. For a little sharpness, whisk it with 1/4 tsp mustard powder first.
 
-> Keith: This was fairly mild but good. I upped the mustard powder to try and make it hit more
+> Verdict: This was fairly mild but good. In the recipe above I increased the mustard powder to try and make it more interesting.
 
 ### Chili-flake — smoky and hot (UNTESTED)
 - **Before:** the smoky paprika-cumin mix above
 - **Last 2–3 minutes:** a pinch of chili flakes. Add them late or they turn bitter over a full cook.
 
-### Sesame-soy — nutty, savory (UNTESTED)
+### Sesame-soy — nutty, savory
 - **Before:** oil only, no salt
 - **After:** ~1 tsp soy sauce, a drizzle of toasted sesame oil, and a pinch of chili flakes. Sesame oil is a finishing oil — don't cook with it, it burns and turns bitter. Basically restaurant sesame green beans, and a good fix for the plain-soy version tasting flat.
+
+> Verdict: This was much better than soy and mustard! I used Aleppo flakes, but that wasn't spicy enough.
 
 ### Harissa — complex, spicy (UNTESTED)
 - **Before:** ~1/4 tsp dry harissa blend, tossed on with the oil like the other rubs. It's chili-forward, so if yours runs hot, add it partway through or keep the cook shorter — ground chilies turn bitter over a long, hot cook. Caraway and coriander give it a different character from the smoky rub.
