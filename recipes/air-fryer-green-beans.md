@@ -71,8 +71,10 @@ Pick one per batch. *Before* = toss on with the oil before cooking. *After* = of
 
 > Verdict: This was much better than soy and mustard! I used Aleppo flakes, but that wasn't spicy enough.
 
-### Harissa — complex, spicy (UNTESTED)
+### Harissa — complex, a little spicy
 - **Before:** ~1/4 tsp dry harissa blend, tossed on with the oil like the other rubs. It's chili-forward, so if yours runs hot, add it partway through or keep the cook shorter — ground chilies turn bitter over a long, hot cook. Caraway and coriander give it a different character from the smoky rub.
+
+> Verdict: I did a heaping 1/4 tsp and it wasn't quite flavorful enough for me. Next time I'll try more.
 
 ## Tips
 - Don't crowd them — crowded beans steam instead of blister, so two rounds beats one packed layer.
