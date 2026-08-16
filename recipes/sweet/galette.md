@@ -5,7 +5,9 @@ layout: cook-mode
 
 # Galette
 
-Adapted from Claire Saffitz, but using foraged blackberries and almond flour. And no food processor.
+Adapted from [Claire Saffitz](https://youtu.be/UD9jnoi_kic?si=grQAAx4KQ8EITmP2), but using foraged blackberries and almond flour. And no food processor.
+
+<img src="../img/blackberry_galette.jpg" alt="Blackberry galette" width="300" />
 
 ## Ingredients
 
@@ -43,7 +45,7 @@ Rule of thumb if the fruit changes: sugar at 10-15% of fruit weight.
 ### Finishing
 
 <div class="ingredients" markdown="1">
-- 1 egg yolk + a bit of heavy cream for the wash
+- 1 egg yolk + a bit of heavy cream for the wash (the white gets discarded unless you have a use for it)
 - 1-2 tbsp sugar on the crust border (coarse turbinado or demerara if you have it, otherwise granulated)
 </div>
 
@@ -58,16 +60,16 @@ Rule of thumb if the fruit changes: sugar at 10-15% of fruit weight.
 - Sprinkle in ice water a little at a time, integrating with a chopstick. Stop as soon as it clumps into curds when pinched – it should look shaggy and a bit dry, not like a smooth ball.
 - Form into a rough disc. We don't want to develop gluten so don't knead. Also beware that body heat melts butter and we don't want that.
 - Wrap and chill at least 1 hour (up to 2 days)
-- Roll to a rough 12" round, ~1/8" thick
-- Chill the rolled-out round again if needed
 
-### Frangipane
+### While the dough chills
 - Cream the butter and sugar
-- Mix in the almond flour, egg, flour, salt, and almond extract
+- Mix in the almond flour, egg, flour, salt, and almond extract, then chill the frangipane
+- Rinse the berries and pat them dry
 
 ### Assembly
-- Rinse the berries and pat them dry
-- Spread the frangipane on the rolled-out round, leaving a border
+- Roll onto parchment to a rough 12" round, ~1/8" thick, and slide it onto a 13" pizza sheet
+- Chill the rolled-out round again if needed
+- Spread the frangipane on the round, leaving a 1 1/2 - 2" border
 - Toss the berries with sugar and pile them on
 - Fold the border over, egg wash it, sprinkle with sugar
 - Freeze 15-30 min to firm up
