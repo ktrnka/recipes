@@ -23,6 +23,7 @@ title: Recipes
 - [Brownie Cookies](/recipes/sweet/brownie-cookies)
 - [Butter Horns](/recipes/sweet/butter-horns)
 - [Chocolate Chip Cookies](/recipes/sweet/chocolate-chip-cookies)
+- [Galette](/recipes/sweet/galette)
 - [Hazelnut Cookies](/recipes/sweet/hazelnut-cookies)
 - [Monkey Bread](/recipes/sweet/monkey-bread)
 - [Peanut Butter Cookies](/recipes/sweet/peanut-butter-cookies)
