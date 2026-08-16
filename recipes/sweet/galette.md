@@ -66,6 +66,7 @@ Rule of thumb if the fruit changes: sugar at 10-15% of fruit weight.
 - Mix in the almond flour, egg, flour, salt, and almond extract
 
 ### Assembly
+- Rinse the berries and pat them dry
 - Spread the frangipane on the rolled-out round, leaving a border
 - Toss the berries with sugar and pile them on
 - Fold the border over, egg wash it, sprinkle with sugar
@@ -77,4 +78,10 @@ Rule of thumb if the fruit changes: sugar at 10-15% of fruit weight.
 - The water amount is a target, not a rule.
 - The dough should be a bit crumbly, not like a bread dough.
 - The chill in the fridge isn't optional. Unrested dough snaps back on the rolling pin and shrinks unevenly when baked.
-- Almonds are milder than pistachios, so the frangipane reads flatter. 1/8 tsp almond extract adds flavor without more sugar or liquid.
+- Almonds are milder than pistachios, so the frangipane reads flatter. 1/8 tsp almond extract adds flavor without more sugar or liquid. Don't go past that – more starts to taste overdone.
+- Sweetness lives in the sugar tossed with the berries. Sprinkling the crust feels like a lot while you're doing it but barely moves the overall sweetness.
+- Get the round actually round. An uneven edge is where the filling spills out.
+- 400°F convection blackens the edges in spots. 375 avoids it.
+- Actually cool it the full hour. Cutting in early is tempting and doesn't go well.
+- Foraged blackberries need a thorough rinse to get the surface stuff off, especially the little dried-up petals. A splash of vinegar in the water is supposed to drive bugs out, though that hasn't been a problem so far.
+- Pat the berries dry. Moisture is the thing to control here.
