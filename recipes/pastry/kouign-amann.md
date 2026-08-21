@@ -5,7 +5,7 @@ layout: cook-mode
 # Kouignette (mini Koiugn Amann)
 Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 
-<img src="img/kouignette.jpg" alt="Kouignette" width="300"/>
+<img src="../img/kouignette.jpg" alt="Kouignette" width="300"/>
 
 ## Ingredients
 
@@ -52,7 +52,7 @@ Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 ## Variation: Wavy Croissant
 This is inspired by Saint Bread's Cardamom Croissant. I couldn't find any official name for this shape anywhere. It's rectangular with the lamination layers pointed upwards in a wavy pattern.
 
-<img src="img/st_bread_cardamom_croissant.jpg" alt="Saint Bread Cardamom Croissant" width="300"/>
+<img src="../img/st_bread_cardamom_croissant.jpg" alt="Saint Bread Cardamom Croissant" width="300"/>
 
 If you're doing this, you'll need to calculate the size of the rectangle based on the size of your pan. (See below)
 
@@ -77,7 +77,7 @@ This estimate worked pretty well BUT it's definitely imperfect.
 
 ### Attempt 1
 
-<img src="img/my_cardamom_croissant_attempt_1.jpg" alt="My Cardamom Croissant Attempt 1" width="300"/>
+<img src="../img/my_cardamom_croissant_attempt_1.jpg" alt="My Cardamom Croissant Attempt 1" width="300"/>
 
 Went well
 - The shape looked great
