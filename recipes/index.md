@@ -41,6 +41,7 @@ Pages marked <span class="badge">notes</span> are attempt notes rather than a re
 - [Rye bread](/recipes/bread/rye-bread) <span class="badge">notes</span>
 - [Semolina cheese bread](/recipes/bread/semolina-cheese-bread) <span class="badge">notes</span>
 - [Sheng Jian Bao](/recipes/bread/sheng-jian-bao)
+- [Simit](/recipes/bread/simit) <span class="badge">notes</span>
 - [White rustic bread](/recipes/bread/white-rustic-bread) <span class="badge">notes</span>
 
 **Tools:** [Bread Calculator](/recipes/bread/calculator)
@@ -77,6 +78,7 @@ Pages marked <span class="badge">notes</span> are attempt notes rather than a re
 - [Hummus](/recipes/hummus)
 - [Meatballs](/recipes/meatballs)
 - [Pizza](/recipes/pizza)
+- [Potato and egg scramble](/recipes/potato-egg-scramble)
 
 ## Notes
 Experiments and lessons that aren't tied to one dish.
