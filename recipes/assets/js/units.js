@@ -230,48 +230,46 @@
     return unit ? `${text} ${plural(value, unit)}` : text;
   }
 
-  // ---- Rewriting a parsed line for a display mode ----
-  // mode: 'original' | 'weight' | 'volume'; scale: number
-  // Returns { html-safe pieces } as { amount, rest, original, changed }.
-  function render(parsed, mode, scale) {
-    scale = scale || 1;
-    const p = parsed;
-    if (!p.qty) return { amount: null, rest: p.text, changed: false };
-    const lo = p.qty.lo * scale;
-    const hi = p.qty.hi != null ? p.qty.hi * scale : null;
-    const ing = p.ingredient;
-    const originalAmount = p.text.slice(p.start, p.end).trim();
-    const hedge = p.hedge;
+  // ---- Canonical form: weight first, volume in parentheses ----
+  // "1/2 c water" -> "115g water (1/2 cup)"; "142g flour" -> "142g flour (1 cup + 1 tbsp)".
+  // Returns null when the line should stay as written (no amount, counts, sticks,
+  // oz/lb, no density, or the author already gave both).
+  function canonical(parsed) {
+    const p = parsed, ing = p.ingredient;
+    if (!p.qty || !ing || !ing.gramsPerTsp) return null;
+    const { lo, hi } = p.qty;
+    const range = f => (hi != null ? `${f(lo)}–${f(hi)}` : f(lo));
+    const rest = p.text.slice(p.end).trim();
+    // Where the "(...)" goes: merged into an existing one; else before a sentence break,
+    // or before a comma if the ingredient name comes before it ("dried chickpeas, soaked...");
+    // else at the end ("melted, cooled butter, or ..." keeps it at the end).
+    const withParen = extra => {
+      if (rest.includes('(')) return rest.replace('(', `(${extra}; `);
+      const stop = rest.search(/\. /);
+      if (stop > -1) return `${rest.slice(0, stop)} (${extra})${rest.slice(stop)}`;
+      const comma = rest.indexOf(', ');
+      if (comma > -1 && findIngredient(rest.slice(0, comma), [ing])) return `${rest.slice(0, comma)} (${extra})${rest.slice(comma)}`;
+      return `${rest} (${extra})`;
+    };
 
-    // "500 g–530 g" -> "500–530 g"; "3 g" + "+" -> "3+ g"
-    const fmtRange = f => (hi != null ? `${f(lo)}–${f(hi)}`.replace(/ ([a-z]+)–/, '–') : f(lo).replace(/^([\d./ ]*\d)/, `$1${p.plus}`));
-
-    let target = null;
-    // Sticks of butter are a count unit, like eggs: left as written.
-    if (mode === 'weight' && p.dim === 'volume') target = 'weight';
-    if (mode === 'volume' && p.dim === 'weight') target = 'volume';
-    // Author already gave the target unit in parentheses: leave the line alone.
-    if (target && (p.parenDims.has(target) || (target === 'volume' && p.parenDims.has('stick')))) target = null;
-
-    if (target === 'weight') {
-      const g = v => toGrams(v, p.unit, ing);
-      if (g(lo) != null) return { amount: fmtRange(v => formatGrams(g(v))), rest: p.text.slice(p.end), original: originalAmount, changed: true, hedge };
+    if (p.dim === 'volume' && !p.parenDims.has('weight')) {
+      const grams = range(v => roundGrams(toGrams(v, p.unit, ing))) + 'g' + p.plus;
+      const vol = hi != null ? `${fractionText(lo, FRACTION_VALUES)}–${formatAmount(hi, p.unit)}` : formatAmount(lo, p.unit).replace(/^([\d/ ]*\d)/, `$1${p.plus}`);
+      return `${p.hedge}${grams} ${withParen(vol)}`;
     }
-    if (target === 'volume' && ing && ing.gramsPerTsp) {
-      const f = v => {
-        const grams = toGrams(v, p.unit, ing);
-        return ing.each && ing.each.stick ? formatButter(grams, ing) : formatVolume(toTsp(grams, ing), hi != null);
-      };
-      return { amount: fmtRange(f), rest: p.text.slice(p.end), original: originalAmount, changed: true, hedge };
+    if (p.dim === 'weight' && p.unit === 'g' && !p.parenDims.has('volume') && !p.parenDims.has('stick')) {
+      const tsp = v => toTsp(v, ing);
+      const vol = ing.each && ing.each.stick
+        ? range(v => formatButter(v, ing))
+        : hi != null ? `${formatVolume(tsp(lo), true)}–${formatVolume(tsp(hi), true)}`.replace(/ (cups?|tbsp|tsp)–/, '–') : formatVolume(tsp(lo));
+      return `${p.text.slice(0, p.end).trim()} ${withParen(vol)}`;
     }
-    if (scale !== 1) {
-      const f = v => (p.unit === 'g' ? formatGrams(v) : formatAmount(v, p.unit));
-      return { amount: fmtRange(f), rest: p.text.slice(p.end), original: originalAmount, changed: true, hedge };
-    }
-    return { amount: null, rest: p.text, changed: false };
+    return null;
   }
 
-  const api = { parseLine, prepareIngredients, findIngredient, toGrams, toTsp, formatGrams, formatVolume, formatButter, formatAmount, render, parseNumber, VOLUME, WEIGHT };
+  const FRACTION_VALUES = FRACTION_NAMES.map(f => f[0]);
+
+  const api = { parseLine, prepareIngredients, findIngredient, toGrams, toTsp, formatGrams, formatVolume, formatButter, formatAmount, canonical, parseNumber, VOLUME, WEIGHT };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.RecipeUnits = api;
 })(this);

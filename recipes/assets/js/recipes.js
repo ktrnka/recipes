@@ -60,7 +60,6 @@ class CookModeToggle extends HTMLElement {
 customElements.define('cook-mode-toggle', CookModeToggle);
 
 // Add checkboxes to any <div class="ingredients"> with list items.
-// Each line's text goes in <span class="ing-text"> so ingredient-tools.js can rewrite amounts.
 // Nested lists stay nested: only the item's own text moves into the label.
 function addIngredientCheckboxes() {
   document
@@ -73,10 +72,7 @@ function addIngredientCheckboxes() {
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.className = 'ingredient-check';
-      const text = document.createElement('span');
-      text.className = 'ing-text';
-      text.textContent = own.map(n => n.textContent).join('').trim();
-      text.dataset.original = text.textContent;
+      const text = document.createTextNode(own.map(n => n.textContent).join('').trim());
       label.appendChild(checkbox);
       label.appendChild(text);
 

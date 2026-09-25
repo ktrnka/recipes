@@ -190,10 +190,10 @@ ingredients:
     name: All-purpose flour
     match: [all-purpose flour, ap flour, flour]
     amount: 1 cup
-    grams: 120
-    source: {ref: ka, as_stated: "1 cup = 120 g"}
-    check: {ref: usda, fdc: 168894, as_stated: "1 cup = 125 g"}
-    note: "Flour by volume swings 15-20% with how you fill the cup. King Arthur's number is for fluffed, spooned, and leveled flour. Weigh one of your own scooped cups and put it here if yours differs."
+    grams: 132
+    source: {ref: mine, as_stated: "3 scooped cups weighed 2026-09-25: 135, 129, 132 g (mean 132)"}
+    check: {ref: ka, as_stated: "1 cup = 120 g (spooned and leveled)"}
+    note: "This is my scooped cup. King Arthur's 120 g assumes fluffed, spooned, and leveled flour; USDA #168894 says 125 g. Flour by volume swings 15-20% with how you fill the cup."
 
   - id: bread-flour
     name: Bread flour
