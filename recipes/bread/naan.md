@@ -19,7 +19,7 @@ Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-n
 - 6g salt (1 tsp)
 - About 12g oil (1 tbsp; butter is ok too if melted, softened, or grated)
 - 85g plain yogurt (half a 6 oz container, about 1/3 cup)
-- About 240g flour (2 cups)
+- About 265g flour (2 cups)
 </div>
 
 <cook-mode-toggle></cook-mode-toggle>
