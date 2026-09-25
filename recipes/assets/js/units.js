@@ -247,7 +247,8 @@
     const fmtRange = f => (hi != null ? `${f(lo)}–${f(hi)}`.replace(/ ([a-z]+)–/, '–') : f(lo).replace(/^([\d./ ]*\d)/, `$1${p.plus}`));
 
     let target = null;
-    if (mode === 'weight' && (p.dim === 'volume' || p.dim === 'stick')) target = 'weight';
+    // Sticks of butter are a count unit, like eggs: left as written.
+    if (mode === 'weight' && p.dim === 'volume') target = 'weight';
     if (mode === 'volume' && p.dim === 'weight') target = 'volume';
     // Author already gave the target unit in parentheses: leave the line alone.
     if (target && (p.parenDims.has(target) || (target === 'volume' && p.parenDims.has('stick')))) target = null;

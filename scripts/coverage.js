@@ -28,7 +28,7 @@ for (const file of walk(path.join(root, 'recipes')).sort()) {
       const p = U.parseLine(m[1], ingredients);
       let cls;
       if (!p.qty) cls = 'no amount';
-      else if (p.dim === 'count') cls = 'count (left alone)';
+      else if (p.dim === 'count' || p.dim === 'stick') cls = 'count (left alone)';
       else if (!p.ingredient) cls = `${p.dim}, no ingredient match`;
       else if (p.dim === 'volume' && !p.ingredient.gramsPerTsp) cls = 'volume, ingredient has no density';
       else if (p.dim === 'weight' && !p.ingredient.gramsPerTsp) cls = 'weight, no density (weight-only is fine)';

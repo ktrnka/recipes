@@ -25,7 +25,7 @@ def main() -> None:
         subprocess.run(
             [
                 "google-chrome", "--headless=new", "--disable-gpu", "--no-first-run", "--hide-scrollbars",
-                "--window-size=900,1400", "--virtual-time-budget=3000", f"--screenshot={out}", BASE + page,
+                "--window-size=390,1200" if prefix.endswith("mobile") else "--window-size=900,1400", "--virtual-time-budget=3000", f"--screenshot={out}", BASE + page,
             ],
             check=True,
             capture_output=True,
