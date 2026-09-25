@@ -7,15 +7,66 @@ layout: default
   list-style: none;
   padding-left: 0;
 }
+.ingredients ul ul {
+  padding-left: 1.6rem;
+  margin-top: 0.25rem;
+}
 .ingredients ul li {
   margin-bottom: 0.25rem;
 }
 .ingredient-check {
   margin-right: 0.5rem;
 }
+.ing-tools {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+  display: grid;
+  gap: 0.4rem;
+}
+.ing-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.ing-label {
+  min-width: 3.5rem;
+  color: #57606a;
+}
+.ing-btn {
+  padding: 0.2rem 0.7rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  background: #f6f8fa;
+  cursor: pointer;
+  font: inherit;
+}
+.ing-btn.on {
+  background: #3f8257;
+  border-color: #3f8257;
+  color: white;
+}
+.ing-scale-input, .ing-have-amount {
+  width: 5rem;
+  font: inherit;
+}
+.ing-have-line {
+  max-width: 16rem;
+  font: inherit;
+}
+.ing-have-note {
+  color: #57606a;
+}
+.ing-orig {
+  color: #8c959f;
+  font-size: 0.85em;
+}
 </style>
 
+<script>window.INGREDIENTS_URL = "{{ '/assets/ingredients.json' | relative_url }}";</script>
 <script src="{{ '/assets/js/recipes.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/units.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ingredient-tools.js' | relative_url }}"></script>
 
 {{ content }}
 
