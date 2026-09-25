@@ -14,12 +14,12 @@ Goals:
 # Ingredients
 
 <div class="ingredients" markdown="1">
-- 142g flour
-- 89g water or milk. If using milk, don't use a lot maybe 10-20g
-- 10g oil
-- 6g sugar
-- 4g salt
-- 1-2g yeast
+- 142g flour (1 cup + 1 tbsp)
+- 89g water or milk (1/3 cup + 1 tbsp). If using milk, don't use a lot maybe 10-20g
+- 10g oil (2 1/2 tsp)
+- 6g sugar (1 1/2 tsp)
+- 4g salt (5/8 tsp)
+- 1-2g yeast (3/8–5/8 tsp)
 </div>
 
 Makes 2 buns (125-130g pre-bake). Hydration is 60-65%.

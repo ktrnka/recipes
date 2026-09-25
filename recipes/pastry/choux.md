@@ -8,11 +8,11 @@ Adapted from Claire Saffitz, Smitten Kitchen
 ## Ingredients
 
 <div class="ingredients" markdown="1">
-- 1/2 c water (or mix with milk)
-- 1/4 tsp salt
-- 2 tsp sugar
-- 45g unsalted butter
-- 67g flour
+- 115g water (1/2 cup; or mix with milk)
+- 1.5g salt (1/4 tsp)
+- 8.5g sugar (2 tsp)
+- 45g unsalted butter (3 tbsp)
+- 67g flour (1/2 cup)
 - 2 eggs
 </div>
 

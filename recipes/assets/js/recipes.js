@@ -59,23 +59,28 @@ class CookModeToggle extends HTMLElement {
 
 customElements.define('cook-mode-toggle', CookModeToggle);
 
-// Add checkboxes to any <div class="ingredients"> with list items
-document.addEventListener('DOMContentLoaded', () => {
+// Add checkboxes to any <div class="ingredients"> with list items.
+// Nested lists stay nested: only the item's own text moves into the label.
+function addIngredientCheckboxes() {
   document
     .querySelectorAll('.ingredients li')
     .forEach(li => {
+      const own = [...li.childNodes].filter(n => !(n.nodeType === 1 && /^(UL|OL)$/.test(n.tagName)));
+      const nested = [...li.childNodes].filter(n => !own.includes(n));
+
       const label = document.createElement('label');
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.className = 'ingredient-check';
-
-      // Move existing text into label
-      const text = document.createTextNode(li.textContent.trim());
+      const text = document.createTextNode(own.map(n => n.textContent).join('').trim());
       label.appendChild(checkbox);
       label.appendChild(text);
 
-      // Clear li and insert label
       li.textContent = '';
       li.appendChild(label);
+      nested.forEach(n => li.appendChild(n));
     });
-});
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addIngredientCheckboxes);
+else addIngredientCheckboxes();
