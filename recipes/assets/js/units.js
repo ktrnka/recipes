@@ -146,7 +146,9 @@
     return Math.round(g / 5) * 5;
   }
 
-  function formatGrams(g) {
+  // `precise` (converter page): nearest 1 g, or 0.1 g under 10 g.
+  function formatGrams(g, precise) {
+    if (precise) return `${g < 10 ? Math.round(g * 10) / 10 : Math.round(g)} g`;
     return `${roundGrams(g)} g`;
   }
 

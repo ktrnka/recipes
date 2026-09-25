@@ -76,6 +76,8 @@ Pages marked <span class="badge">notes</span> are attempt notes rather than a re
 - [Pizza](/recipes/pizza)
 - [Potato and egg scramble](/recipes/potato-egg-scramble)
 
+**Tools:** [Weight-volume converter](/recipes/conversions)
+
 ## Notes
 Experiments and lessons that aren't tied to one dish.
 
