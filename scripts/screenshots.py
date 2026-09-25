@@ -8,6 +8,7 @@ Needs `bundle exec jekyll serve -s recipes --baseurl /recipes --port 4010` runni
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 BASE = "http://localhost:4010/recipes/"
@@ -17,6 +18,7 @@ OUT = Path(__file__).resolve().parent.parent / "review" / "shots"
 def main() -> None:
     prefix, pages = sys.argv[1], sys.argv[2:]
     OUT.mkdir(parents=True, exist_ok=True)
+    time.sleep(3)  # let `jekyll serve` finish regenerating after a fresh edit
     for page in pages:
         name = re.sub(r"[^A-Za-z0-9]+", "-", page).strip("-")
         out = OUT / f"{prefix}-{name}.png"

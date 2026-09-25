@@ -13,13 +13,13 @@ Adapted from [Food Wishes](https://foodwishes.blogspot.com/2019/02/garlic-naan-n
 ## Ingredients
 
 <div class="ingredients" markdown="1">
-- 1/2 c water
-- 1 tsp sugar
-- 1 tsp yeast
-- 1 tsp salt
-- About 1 tbsp oil (butter is ok too if melted, softened, or grated)
-- Half a plain yogurt (About 3 oz or 85g)
-- About 2 c flour
+- 115g water (1/2 cup)
+- 4g sugar (1 tsp)
+- 3g yeast (1 tsp)
+- 6g salt (1 tsp)
+- About 12g oil (1 tbsp; butter is ok too if melted, softened, or grated)
+- 85g plain yogurt (half a 6 oz container, about 1/3 cup)
+- About 240g flour (2 cups)
 </div>
 
 <cook-mode-toggle></cook-mode-toggle>
