@@ -12,20 +12,20 @@ Adapted from [Claire Saffitz](https://www.youtube.com/watch?v=Mb9OBQhWucA)
 ### Dough
 
 <div class="ingredients" markdown="1">
-- 1 tsp yeast
-- 1/4 cups sugar
-- 1 cup room temp water
-- 3 tbsp melted, cooled butter, or just grated butter into the lukewarm dough
-- 1 1/2 tsp salt (9g)
-- 423g flour
+- 3g yeast (1 tsp)
+- 50g sugar (1/4 cup)
+- 225g room temp water (1 cup)
+- 42g melted, cooled butter, or just grated butter into the lukewarm dough (3 tbsp)
+- 9g salt (1 1/2 tsp)
+- 423g flour (3 1/4 cups)
 </div>
 
 ### Butter block
 - 3 sticks salted butter (340g)
 
 ### Other
-- About 1 cup sugar in the lamination and pan
-- ~2 tbsp butter to brush the pan
+- About 200g sugar (1 cup) in the lamination and pan
+- ~28g butter (2 tbsp) to brush the pan
 
 <cook-mode-toggle></cook-mode-toggle>
 

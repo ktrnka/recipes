@@ -22,9 +22,7 @@ Something on "general bread" like baguettes, boules, etc that covers
   3. Basics like temperature vs distance to center
 
 ### Need weight measurements added:
-- **naan.md**: Add weights for water (1/2 c = ~114g), flour (~2 c)
-- **choux.md**: Add weight for water (1/2 c = ~114g)
-- **kouign-amann.md**: Add weights for water (1 cup = ~227g), butter (3 tbsp = ~42g), sugar (~1 cup)
+Canonical format is weight first, volume in parentheses: `115g water (1/2 cup)`. `node scripts/coverage.js` proposes these lines from `recipes/_data/ingredients.yml`, and `--apply <file>` writes them.
 - **All sweet cookie recipes** (lower priority - easier to measure by volume):
   - chocolate-chip-cookies.md
   - peanut-butter-cookies.md
@@ -33,9 +31,6 @@ Something on "general bread" like baguettes, boules, etc that covers
   - biscotti.md
   - brownie-cookies.md
   - butter-horns.md
-
-### Need volume measurements added (lower priority):
-- **burger_buns.md**: Add volume equivalents for water/milk (89g = ~6 tbsp)
 
 ### Need specific corrections:
 - **hazelnut-cookies.md**: 
@@ -51,6 +46,3 @@ Something on "general bread" like baguettes, boules, etc that covers
 - Dark mode to save battery
 - Review recipes for folder structure
 - Expand the pizza variations
-
-## Bugs
-- The checkbox-list doesn't work properly with nested lists. It just joins the nested items into the parent item without a li element or label+input type item
