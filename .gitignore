@@ -1,3 +1,12 @@
+# Jekyll local preview
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
+
+# Agent review packages (screenshots, notes) stay local
+review/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

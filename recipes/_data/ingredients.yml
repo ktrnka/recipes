@@ -1,0 +1,402 @@
+# Ingredient densities for the converter page and the weight/volume toggle.
+#
+# Every row has a source. The primary reference is King Arthur's ingredient
+# weight chart; USDA FoodData Central (SR Legacy) is a cross-check and fills
+# gaps. `review: true` marks rows where sources disagree by more than ~10%.
+#
+# Row fields:
+#   name      display name
+#   match     phrases matched against ingredient lines (whole words, any order
+#             within a phrase; earliest match in the line wins, then longest)
+#   amount    how much the source measured, as "<number> <cup|tbsp|tsp>"
+#   grams     what that amount weighs, per the primary source
+#   source    key into `sources`, plus `as_stated` (the source's own wording)
+#   check     optional second source for comparison
+#   each      optional count units, e.g. a stick of butter
+#   review    true when sources disagree by more than ~10%
+#   note      anything a cook should know
+#
+# To override a value with your own measurement (e.g. your scooped cup of
+# flour), change `grams` and set `source: {ref: mine, as_stated: "..."}`.
+
+sources:
+  ka:
+    name: King Arthur ingredient weight chart
+    url: https://www.kingarthurbaking.com/learn/ingredient-weight-chart
+    retrieved: 2026-09-25
+  usda:
+    name: USDA FoodData Central, SR Legacy (April 2018)
+    url: https://fdc.nal.usda.gov/download-datasets
+    retrieved: 2026-09-25
+  mine:
+    name: Measured at home
+
+ingredients:
+  # --- Liquids ---
+  - id: water
+    name: Water
+    match: [water, ice water]
+    amount: 1 cup
+    grams: 227
+    source: {ref: ka, as_stated: "1 cup = 227 g"}
+    check: {ref: usda, fdc: 174158, as_stated: "1 cup = 237 g"}
+    note: A US cup of water physically weighs about 237 g. King Arthur rounds every 8 fl oz liquid to 8 oz (227 g).
+
+  - id: milk
+    name: Milk
+    match: [milk]
+    amount: 1 cup
+    grams: 227
+    source: {ref: ka, as_stated: "Milk (fresh), 1 cup = 227 g"}
+    check: {ref: usda, fdc: 171265, as_stated: "Whole milk, 1 cup = 244 g"}
+
+  - id: heavy-cream
+    name: Heavy cream
+    match: [heavy cream, cream]
+    amount: 1 cup
+    grams: 227
+    source: {ref: ka, as_stated: "Cream (heavy, light, or half & half), 1 cup = 227 g"}
+    check: {ref: usda, fdc: 170859, as_stated: "Heavy whipping cream, 1 cup fluid = 238 g"}
+
+  - id: yogurt
+    name: Plain yogurt
+    match: [yogurt]
+    amount: 1 cup
+    grams: 227
+    source: {ref: ka, as_stated: "Yogurt, 1 cup = 227 g"}
+    check: {ref: usda, fdc: 171284, as_stated: "Plain whole-milk yogurt, 1 cup = 245 g"}
+
+  - id: lemon-juice
+    name: Lemon juice
+    match: [lemon juice]
+    amount: 1 tbsp
+    grams: 14
+    source: {ref: ka, as_stated: "1 tablespoon = 14 g"}
+    check: {ref: usda, fdc: 167747, as_stated: "1 cup = 244 g (15.3 g per tbsp)"}
+
+  - id: chicken-stock
+    name: Chicken stock or broth
+    match: [chicken stock, chicken broth, broth, stock]
+    amount: 1 cup
+    grams: 240
+    source: {ref: usda, fdc: 172884, as_stated: "Chicken stock, home-prepared, 1 cup = 240 g"}
+    note: Not in the King Arthur chart.
+
+  - id: vanilla
+    name: Vanilla extract
+    match: [vanilla extract, vanilla]
+    amount: 1 tbsp
+    grams: 14
+    source: {ref: ka, as_stated: "1 tablespoon = 14 g"}
+    check: {ref: usda, fdc: 173471, as_stated: "1 tbsp = 13 g"}
+
+  # --- Fats ---
+  - id: butter
+    name: Butter
+    match: [butter]
+    amount: 8 tbsp
+    grams: 113
+    source: {ref: ka, as_stated: "8 tablespoons (1/2 cup) = 113 g"}
+    check: {ref: usda, fdc: 173430, as_stated: "1 cup = 227 g; 1 stick = 113 g; 1 tbsp = 14.2 g"}
+    each: {stick: 113}
+
+  - id: vegetable-oil
+    name: Vegetable oil
+    match: [vegetable oil, canola oil, neutral oil, oil]
+    amount: 1 cup
+    grams: 198
+    source: {ref: ka, as_stated: "1 cup = 198 g"}
+    check: {ref: usda, fdc: 172336, as_stated: "Canola oil, 1 cup = 218 g"}
+    review: true
+    note: "Sources differ by 10%. Oil is about 0.92 g/ml, which gives ~218 g per cup, so USDA is likely closer. King Arthur's 198 g is 7 oz."
+
+  - id: olive-oil
+    name: Olive oil
+    match: [olive oil]
+    amount: 0.25 cup
+    grams: 50
+    source: {ref: ka, as_stated: "1/4 cup = 50 g"}
+    check: {ref: usda, fdc: 171413, as_stated: "1 cup = 216 g"}
+
+  - id: shortening
+    name: Vegetable shortening
+    match: [shortening]
+    amount: 0.25 cup
+    grams: 46
+    source: {ref: ka, as_stated: "Vegetable shortening, 1/4 cup = 46 g"}
+    check: {ref: usda, fdc: 171011, as_stated: "1 cup = 205 g"}
+    review: true
+    note: Sources differ by 11%.
+
+  - id: peanut-butter
+    name: Peanut butter
+    match: [peanut butter]
+    amount: 0.5 cup
+    grams: 135
+    source: {ref: ka, as_stated: "1/2 cup = 135 g"}
+    check: {ref: usda, fdc: 172470, as_stated: "Smooth, 1 cup = 258 g"}
+
+  - id: tahini
+    name: Tahini
+    match: [tahini]
+    amount: 0.5 cup
+    grams: 128
+    source: {ref: ka, as_stated: "Tahini paste, 1/2 cup = 128 g"}
+    check: {ref: usda, fdc: 168604, as_stated: "1 tbsp = 15 g"}
+
+  # --- Sugars ---
+  - id: sugar
+    name: Granulated sugar
+    match: [granulated sugar, white sugar, sugar]
+    amount: 1 cup
+    grams: 198
+    source: {ref: ka, as_stated: "Sugar (granulated white), 1 cup = 198 g"}
+    check: {ref: usda, fdc: 169655, as_stated: "1 cup = 200 g"}
+
+  - id: superfine-sugar
+    name: Superfine sugar
+    match: [superfine sugar, extra-fine sugar, caster sugar, castor sugar]
+    amount: 1 cup
+    grams: 190
+    source: {ref: ka, as_stated: "Baker's Special Sugar (superfine), 1 cup = 190 g"}
+
+  - id: brown-sugar
+    name: Brown sugar (packed)
+    match: [brown sugar]
+    amount: 1 cup
+    grams: 213
+    source: {ref: ka, as_stated: "Brown sugar (dark or light, packed), 1 cup = 213 g"}
+    check: {ref: usda, fdc: 168833, as_stated: "1 cup packed = 220 g; unpacked = 145 g"}
+    note: Assumes packed.
+
+  - id: powdered-sugar
+    name: Powdered sugar
+    match: [powdered sugar, confectioners sugar, icing sugar]
+    amount: 1 cup
+    grams: 113
+    source: {ref: ka, as_stated: "Confectioners' sugar (unsifted), 1 cup = 113 g"}
+    check: {ref: usda, fdc: 169656, as_stated: "1 cup unsifted = 120 g; sifted = 100 g"}
+
+  - id: molasses
+    name: Molasses
+    match: [molasses]
+    amount: 0.25 cup
+    grams: 85
+    source: {ref: ka, as_stated: "1/4 cup = 85 g"}
+    check: {ref: usda, fdc: 168820, as_stated: "1 cup = 337 g"}
+
+  # --- Flours and dry goods ---
+  - id: ap-flour
+    name: All-purpose flour
+    match: [all-purpose flour, ap flour, flour]
+    amount: 1 cup
+    grams: 120
+    source: {ref: ka, as_stated: "1 cup = 120 g"}
+    check: {ref: usda, fdc: 168894, as_stated: "1 cup = 125 g"}
+    note: "Flour by volume swings 15-20% with how you fill the cup. King Arthur's number is for fluffed, spooned, and leveled flour. Weigh one of your own scooped cups and put it here if yours differs."
+
+  - id: bread-flour
+    name: Bread flour
+    match: [bread flour]
+    amount: 1 cup
+    grams: 120
+    source: {ref: ka, as_stated: "1 cup = 120 g"}
+    check: {ref: usda, fdc: 168896, as_stated: "1 cup = 137 g"}
+    review: true
+    note: Sources differ by 14%, probably because of how the cup was filled (see all-purpose flour).
+
+  - id: almond-flour
+    name: Almond flour
+    match: [almond flour, almond meal]
+    amount: 1 cup
+    grams: 96
+    source: {ref: ka, as_stated: "Almond flour, 1 cup = 96 g"}
+    note: King Arthur lists almond meal separately at 84 g per cup. USDA has no entry.
+
+  - id: breadcrumbs
+    name: Dried breadcrumbs
+    match: [bread crumbs, breadcrumbs]
+    amount: 0.25 cup
+    grams: 28
+    source: {ref: ka, as_stated: "Breadcrumbs (dried), 1/4 cup = 28 g"}
+    note: Panko is much lighter (50 g per cup).
+
+  - id: chocolate-chips
+    name: Chocolate chips
+    match: [chocolate chips, chocolate chunks]
+    amount: 1 cup
+    grams: 170
+    source: {ref: ka, as_stated: "1 cup = 170 g"}
+
+  - id: lentils
+    name: Lentils (dry)
+    match: [lentils]
+    amount: 1 cup
+    grams: 192
+    source: {ref: usda, fdc: 172420, as_stated: "Lentils, raw, 1 cup = 192 g"}
+
+  - id: chickpeas
+    name: Chickpeas (dry)
+    match: [chickpeas, garbanzo beans]
+    amount: 1 cup
+    grams: 200
+    source: {ref: usda, fdc: 173756, as_stated: "Chickpeas, mature seeds, raw, 1 cup = 200 g"}
+
+  # --- Nuts ---
+  - id: hazelnuts
+    name: Hazelnuts (whole)
+    match: [hazelnuts, filberts]
+    amount: 1 cup
+    grams: 142
+    source: {ref: ka, as_stated: "Hazelnuts (whole), 1 cup = 142 g"}
+    check: {ref: usda, fdc: 170581, as_stated: "1 cup whole = 135 g"}
+
+  - id: hazelnuts-chopped
+    name: Hazelnuts (chopped)
+    match: [hazelnuts chopped, chopped hazelnuts]
+    amount: 1 cup
+    grams: 115
+    source: {ref: usda, fdc: 170581, as_stated: "1 cup chopped = 115 g"}
+
+  - id: hazelnuts-ground
+    name: Ground hazelnuts / hazelnut meal
+    match: [ground hazelnuts, hazelnut meal, hazelnut flour]
+    amount: 1 cup
+    grams: 89
+    source: {ref: ka, as_stated: "Hazelnut flour, 1 cup = 89 g"}
+    check: {ref: usda, fdc: 170581, as_stated: "1 cup ground = 75 g"}
+    review: true
+    note: "Sources differ by 16%. The hazelnut cookie recipe's own numbers (250 g = 2 cups, or 1 lb = 2 cups) don't match either one."
+
+  - id: walnuts
+    name: Walnuts (chopped)
+    match: [walnuts]
+    amount: 1 cup
+    grams: 113
+    source: {ref: ka, as_stated: "Walnuts (chopped), 1 cup = 113 g"}
+    check: {ref: usda, fdc: 170187, as_stated: "1 cup chopped = 117 g"}
+    note: Assumes chopped; whole walnuts are 128 g per cup (King Arthur).
+
+  - id: pecans
+    name: Pecans (chopped)
+    match: [pecans]
+    amount: 0.5 cup
+    grams: 57
+    source: {ref: ka, as_stated: "Pecans (diced), 1/2 cup = 57 g"}
+    check: {ref: usda, fdc: 170182, as_stated: "1 cup chopped = 109 g"}
+
+  # --- Salt, leaveners, spices ---
+  - id: salt
+    name: Table salt
+    match: [table salt, fine salt, salt]
+    amount: 1 tbsp
+    grams: 18
+    source: {ref: ka, as_stated: "Salt (table), 1 tablespoon = 18 g"}
+    check: {ref: usda, fdc: 173468, as_stated: "1 tsp = 6 g; 1 tbsp = 18 g"}
+    note: Kosher salt is much lighter by volume. See the two kosher rows.
+
+  - id: salt-diamond
+    name: Kosher salt (Diamond Crystal)
+    match: [diamond crystal]
+    amount: 1 tbsp
+    grams: 8
+    source: {ref: ka, as_stated: "Salt (Kosher, Diamond Crystal), 1 tablespoon = 8 g"}
+
+  - id: salt-morton-kosher
+    name: Kosher salt (Morton)
+    match: [morton kosher, morton's kosher]
+    amount: 1 tbsp
+    grams: 16
+    source: {ref: ka, as_stated: "Salt (Kosher, Morton's), 1 tablespoon = 16 g"}
+
+  - id: yeast
+    name: Instant yeast
+    match: [instant yeast, yeast]
+    amount: 1 tbsp
+    grams: 9
+    source: {ref: ka, as_stated: "Yeast (instant), 1 tablespoon = 9 g (2 tsp = 6 g)"}
+    check: {ref: usda, fdc: 175043, as_stated: "Active dry yeast, 1 tsp = 4 g"}
+    note: USDA only lists active dry yeast, which is a different product. Your pan de cristal (3/8 tsp = 1.1 g) matches King Arthur.
+
+  - id: baking-powder
+    name: Baking powder
+    match: [baking powder]
+    amount: 1 tsp
+    grams: 4
+    source: {ref: ka, as_stated: "1 teaspoon = 4 g"}
+    check: {ref: usda, fdc: 172803, as_stated: "1 tsp = 4.6 g"}
+    review: true
+    note: Sources differ by 15%, which is under 1 g per teaspoon.
+
+  - id: baking-soda
+    name: Baking soda
+    match: [baking soda]
+    amount: 0.5 tsp
+    grams: 3
+    source: {ref: ka, as_stated: "1/2 teaspoon = 3 g"}
+    check: {ref: usda, fdc: 175040, as_stated: "1 tsp = 4.6 g"}
+    review: true
+    note: Sources differ by 23%, which is about 1.4 g per teaspoon.
+
+  - id: cream-of-tartar
+    name: Cream of tartar
+    match: [cream of tartar]
+    amount: 1 tsp
+    grams: 3
+    source: {ref: usda, fdc: 175041, as_stated: "1 tsp = 3 g"}
+
+  - id: cinnamon
+    name: Ground cinnamon
+    match: [cinnamon]
+    amount: 1 tsp
+    grams: 2.6
+    source: {ref: usda, fdc: 171320, as_stated: "1 tsp = 2.6 g"}
+
+  - id: cumin
+    name: Cumin
+    match: [cumin]
+    amount: 1 tsp
+    grams: 2.1
+    source: {ref: usda, fdc: 170923, as_stated: "Cumin seed, 1 tsp whole = 2.1 g"}
+    note: USDA only lists whole seed. Ground cumin is probably a bit heavier.
+
+  - id: chili-powder
+    name: Chili powder
+    match: [chili powder]
+    amount: 1 tbsp
+    grams: 8
+    source: {ref: usda, fdc: 171319, as_stated: "1 tbsp = 8 g"}
+
+  - id: tomato-paste
+    name: Tomato paste
+    match: [tomato paste]
+    amount: 2 tbsp
+    grams: 29
+    source: {ref: ka, as_stated: "2 tablespoons = 29 g"}
+    check: {ref: usda, fdc: 170459, as_stated: "1 tbsp = 16 g"}
+    review: true
+    note: Sources differ by 10%.
+
+  # --- Count units (the toggle leaves these alone; the converter shows them) ---
+  - id: egg
+    name: Egg (large, whole)
+    match: [egg, eggs]
+    each: {egg: 50}
+    source: {ref: ka, as_stated: "Egg (fresh), 1 large = 50 g"}
+    check: {ref: usda, fdc: 171287, as_stated: "1 large = 50 g"}
+
+  - id: egg-yolk
+    name: Egg yolk (large)
+    match: [egg yolk, egg yolks]
+    each: {yolk: 14}
+    source: {ref: ka, as_stated: "Egg yolk (fresh), 1 large = 14 g"}
+    check: {ref: usda, fdc: 172184, as_stated: "1 large = 17 g"}
+    review: true
+    note: "Sources differ by 20%. The old conversions page used 18 g (Rose Levy Beranbaum, 2003), and her 2019 post says yolks now range from 12 to 19 g. Weigh them if it matters."
+
+  - id: egg-white
+    name: Egg white (large)
+    match: [egg white, egg whites]
+    each: {white: 33}
+    source: {ref: usda, fdc: 172183, as_stated: "1 large = 33 g"}
+    check: {ref: ka, as_stated: "Egg white (fresh), 1 large = 30 to 35 g"}
