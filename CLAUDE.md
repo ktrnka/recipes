@@ -8,15 +8,9 @@ Personal recipe collection published as a Jekyll static site on GitHub Pages. Re
 
 Public GitHub repo.
 
-## Quick Start
+## Building
 
-```bash
-cd public/recipes
-bundle install
-bundle exec jekyll serve   # http://localhost:4000
-```
-
-`bundle exec` is required — bare `jekyll` won't find the right gem version.
+There's no Gemfile and no local build. GitHub Pages builds the site in CI (`actions/jekyll-build-pages` with `source: recipes`), so the Jekyll source is the `recipes/` folder, not the repo root. Check rendered changes on the live site after pushing; if a local preview is needed, ask Keith before adding a Gemfile.
 
 ## Key Architecture
 
@@ -49,7 +43,7 @@ kind: recipe        # or `notes`
 `kind` distinguishes the two things that live here:
 
 - **`kind: recipe`** — ingredients and steps are on the page, so you can cook from it alone. Use `layout: cook-mode` and wrap the ingredient list in `<div class="ingredients" markdown="1">` so the checkboxes and cook-mode toggle work.
-- **`kind: notes`** — attempt notes about a recipe that lives somewhere else (or nowhere). Use `layout: page` and lead with the source link. See `improvement-notes.md` for how these get written.
+- **`kind: notes`** — attempt notes about a recipe that lives somewhere else (or nowhere). Use `layout: page` and lead with the source link. See `recipes/improvement-notes.md` for how these get written.
 
 Then add the page to `recipes/index.md` under its section, alphabetically. Notes pages get a badge:
 
@@ -67,7 +61,9 @@ Push to `main`. GitHub Actions builds and deploys to GitHub Pages automatically.
 
 ### Cross-referencing with bookmarks
 
+The bookmarks tool lives in the sibling content-forge repo. It shows which bookmarked recipes are already in the collection:
+
 ```bash
-# From workspace root — shows which bookmarked recipes are already in the collection
-python3 private/bookmarks.py --recipes-dir public/recipes/recipes
+cd ~/code/content/private/content-forge
+uv run faq-builder bookmarks --recipes-dir ~/code/content/public/recipes/recipes
 ```
