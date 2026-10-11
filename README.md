@@ -21,6 +21,8 @@ Something on "general bread" like baguettes, boules, etc that covers
   2. Shaping
   3. Basics like temperature vs distance to center
 
+A dedicated laminated dough page (butter block, folds, keeping butter cold) if I keep doing laminated doughs – the tips are currently spread across kouign-amann, chocolate-croissants, and frosnappers
+
 ### Need weight measurements added:
 Canonical format is weight first, volume in parentheses: `115g water (1/2 cup)`. `node scripts/coverage.js` proposes these lines from `recipes/_data/ingredients.yml`, and `--apply <file>` writes them.
 - **All sweet cookie recipes** (lower priority - easier to measure by volume):

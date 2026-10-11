@@ -46,6 +46,7 @@ Pages marked <span class="badge">notes</span> are attempt notes rather than a re
 - [Chocolate croissants](/recipes/pastry/chocolate-croissants) <span class="badge">notes</span>
 - [Choux](/recipes/pastry/choux)
 - [Cinnamon rolls](/recipes/pastry/cinnamon-rolls) <span class="badge">notes</span>
+- [Frøsnapper](/recipes/pastry/frosnappers)
 - [Kouign Amann](/recipes/pastry/kouign-amann)
 - [Macarons](/recipes/pastry/macarons)
 - [Melon pan](/recipes/pastry/melon-pan) <span class="badge">notes</span>
