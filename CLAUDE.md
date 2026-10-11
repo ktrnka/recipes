@@ -1,4 +1,4 @@
-# CLAUDE.md — recipes
+# CLAUDE.md – recipes
 
 Context for AI-assisted development on this repo.
 
@@ -17,13 +17,13 @@ There's no Gemfile and no local build. GitHub Pages builds the site in CI (`acti
 | What | Where |
 |------|-------|
 | Site config | `_config.yml` |
-| Homepage / index | `recipes/index.md` — hand-maintained list of every page |
+| Homepage / index | `recipes/index.md` – hand-maintained list of every page |
 | Bread | `recipes/bread/` |
-| Pastry | `recipes/pastry/` — laminated doughs, choux, macarons, sweet bakery items |
+| Pastry | `recipes/pastry/` – laminated doughs, choux, macarons, sweet bakery items |
 | Soup | `recipes/soup/` |
-| Sweet | `recipes/sweet/` — cookies, bars, desserts |
+| Sweet | `recipes/sweet/` – cookies, bars, desserts |
 | Other | `recipes/` root |
-| Cross-cutting notes | `recipes/notes/` — experiments not tied to one dish |
+| Cross-cutting notes | `recipes/notes/` – experiments not tied to one dish |
 | Images | `recipes/img/` (referenced as `../img/...` from subfolders) |
 
 ## Common Workflows
@@ -42,8 +42,8 @@ kind: recipe        # or `notes`
 
 `kind` distinguishes the two things that live here:
 
-- **`kind: recipe`** — ingredients and steps are on the page, so you can cook from it alone. Use `layout: cook-mode` and wrap the ingredient list in `<div class="ingredients" markdown="1">` so the checkboxes and cook-mode toggle work.
-- **`kind: notes`** — attempt notes about a recipe that lives somewhere else (or nowhere). Use `layout: page` and lead with the source link. See `recipes/improvement-notes.md` for how these get written.
+- **`kind: recipe`** – ingredients and steps are on the page, so you can cook from it alone. Use `layout: cook-mode` and wrap the ingredient list in `<div class="ingredients" markdown="1">` so the checkboxes and cook-mode toggle work.
+- **`kind: notes`** – attempt notes about a recipe that lives somewhere else (or nowhere). Use `layout: page` and lead with the source link. See `recipes/improvement-notes.md` for how these get written.
 
 Then add the page to `recipes/index.md` under its section, alphabetically. Notes pages get a badge:
 
