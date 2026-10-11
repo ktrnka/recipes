@@ -7,7 +7,7 @@ kind: recipe
 # Frøsnapper
 Adapted from [Cooking with Kathleen](https://youtu.be/9Z-5cVWrL2U), aiming for the frøsnapper from Nielsen's.
 
-<img src="../img/frosnapper_attempt_4.jpg" alt="My frøsnapper, attempt 4" width="300"/> <img src="../img/frosnapper_nielsens.jpg" alt="Nielsen's frøsnapper" width="300"/>
+<img src="../img/frosnapper_attempt_4.jpg" alt="My frøsnapper, attempt 4" height="240"/> <img src="../img/frosnapper_nielsens.jpg" alt="Nielsen's frøsnapper" height="240"/>
 
 Mine (attempt 4) on the left, Nielsen's on the right.
 
@@ -107,13 +107,13 @@ Be careful when shopping for sesame: You want something with a mild nutty flavor
 
 ## Keeping the shape
 
-This was my biggest challenge. I tried many things in the batch that worked:
+This was my biggest challenge. Most of these were in the batch that worked:
 - Reduced yeast (2 tsp → 1 tsp): This definitely helped
-- Rolling pin to squish them together more when shaping: Not sure if this helped
+- Rolling the seeded sheet flat before cutting, to squish the layers together: Not sure if this helped
 - Placed them side by side: I'm pretty sure this helped
 - Sealed the bottom edge with water: I'm not sure if this helped, but it was quick and didn't hurt
 - Pressed them into the parchment: I did this on previous attempts and it maybe helped a little bit, not a lot
-- Rolling pin the flat sides: I'm pretty sure this helped
+- Rolling the edges flat once they're on the tray: I'm pretty sure this helped
 - Water to "glue" any edges that were lifting after the proofing: I have no idea if this helped
 - Only 2 twists: trying to do more in other attempts I think partly caused the spring-back. Nielsen's does 2 as well. When attempt 3 (3 twists) unwound, the advice I got from Claude was to twist more, 5-6 turns. Fewer worked better
 - Chilling after shaping (proofing in the fridge): I tried this in one of the attempts and they still unwound. Proofing wants warmth and holding the shape wants cold, so the two goals pull against each other
