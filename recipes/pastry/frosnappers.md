@@ -20,12 +20,12 @@ Attempt 4 was all done in one day, but it can be split across two with an overni
 ### Dough
 
 <div class="ingredients" markdown="1">
-- 3g yeast (1 tsp) – the source called for 2 tsp dry (or 25g fresh); less yeast helps [keep the shape](#keeping-the-shape)
+- 3g yeast (1 tsp)
 - 12g sugar (1 tbsp)
 - 155g milk (150 ml)
 - 3g salt (1/2 tsp)
 - 1 egg
-- 340g flour (2 1/2 cups + 1 tbsp)
+- 340g all-purpose flour (2 1/2 cups + 1 tbsp)
 </div>
 
 ### Butter block
@@ -45,19 +45,19 @@ Attempt 4 was all done in one day, but it can be split across two with an overni
 - cardamom, cinnamon to taste (about 1 tsp cardamom I think... maybe 1/2 tsp cinnamon)
 </div>
 
-No regular flour in the filling. The video's remonce is 115g each of sugar, butter, and marzipan, and the food label at Nielsen's says almond paste (an employee also mentioned flour). I don't keep marzipan around and it's pricey, but I had a bunch of almond flour I got on sale, so my remonce is based around almond flour instead. It's closer to what Claude gave me than to any other source: Claude converted a marzipan remonce (100g marzipan, 50g butter, 80g sugar) by treating marzipan as roughly half almond and half sugar, and added 10g flour. Over the attempts I dropped the flour, bumped the butter, and halved the almond extract.
+I don't keep marzipan around and it's pricey but I had a bunch of almond flour I got on sale, so my remonce is based around almond flour instead.
 
-A slightly loose filling is good. The caramelized sugary skirt around the base of Nielsen's is leaked remonce.
+A slightly loose filling is good. The caramelized sugary skirt around the base of Nielsen's reference is leaked remonce.
 
 ### Topping
 
 <div class="ingredients" markdown="1">
 - egg wash
-- poppy seeds (it uses a lot, like 1oz or so; the video says 1/4 cup)
-- sesame seeds (the video says 1/4 cup)
+- poppy seeds (it uses a lot, like 1oz or so)
+- sesame seeds
 </div>
 
-Use plain white sesame. In attempt 1 I used Shirakiku white sesame (shiro goma) from the Asian aisle. It doesn't say it's toasted, but it smells stronger, and the flavor didn't jive with the filling. In attempt 4 I used organic white sesame from the bulk bins at Markettime, which worked well (and probably a better deal anyway).
+Be careful when shopping for sesame: You want something with a mild nutty flavor. I had a bad batch using sesame from an Asian grocery, and I'm guessing it's toasted.
 
 <cook-mode-toggle></cook-mode-toggle>
 
@@ -87,7 +87,7 @@ Use plain white sesame. In attempt 1 I used Shirakiku white sesame (shiro goma) 
 
 - Roll out to 30x40cm (preferably a little beyond that). The video says 60x30cm, but that's not what she showed
 - Let rest a little bit; it'll want to spring back
-- Spread the remonce on the bottom 15cm x 40 cm half. It can be a pain to spread. Ok to use your hands and do final smoothing with a spatula or knife
+- Spread the remonce on the bottom 15 cm x 40 cm half. It can be a pain to spread. Ok to use your hands and do final smoothing with a spatula or knife
 - Fold in half lengthwise
 - Seal the bottom edge by wetting the inside of the seam a little ([why](#keeping-the-shape))
 - Brush egg wash over top, spread poppy seeds all over. Also dust maybe 1-2 tsp of sugar
@@ -109,6 +109,7 @@ Use plain white sesame. In attempt 1 I used Shirakiku white sesame (shiro goma) 
 
 This was my biggest challenge. I tried many things in the batch that worked:
 - Reduced yeast (2 tsp → 1 tsp): This definitely helped
+- Rolling pin to squish them together more when shaping: Not sure if this helped
 - Placed them side by side: I'm pretty sure this helped
 - Sealed the bottom edge with water: I'm not sure if this helped, but it was quick and didn't hurt
 - Pressed them into the parchment: I did this on previous attempts and it maybe helped a little bit, not a lot
@@ -126,7 +127,7 @@ Results:
 - Without lamination, the dough isn't very good at all.
 - The filling was fine. It didn't melt out, but maybe oozed a bit
 - They really didn't want to hold their shape, probably because the dough was too dry and stiff
-- Something about the seeds didn't jive with the filling in terms of flavor. Maybe I got the wrong sesame seeds?
+- Something about the seeds didn't jive with the filling in terms of flavor. Maybe I got the wrong sesame seeds? (This was shiro goma from Shirakiku)
 - Overall, it wasn't as light as Nielsen's, nor as sweet
 
 Things to change:
@@ -150,7 +151,7 @@ Results:
 Things to change:
 - Adjust the dough amount properly
 - 12 instead of 8
-- Use multiple big trays, which means I gotta use the big oven
+- Use multiple big trays, which means I gotta use the big oven ugh
 
 ### Attempt 3
 
@@ -159,7 +160,7 @@ Things to change:
 Switched to the dough and amounts from [Cooking with Kathleen](https://youtu.be/9Z-5cVWrL2U).
 
 1. Not sure about the butter block size, I guess go standard for it
-2. Also not sure about the rolled size – she said 60x30cm but that's not what she showed in the video
+2. Also not sure about the rolled size. She said 60x30cm but that's not what she showed in the video
 3. She twisted once more than I did
 4. 375 for 15 min, but they didn't hold their shape
 
@@ -186,7 +187,7 @@ Changes from attempt 3:
 Results:
 - Amazing
 - Once they cooled they seemed less underdone than I feared. With the same oven and temp, maybe go a little longer
-- I froze them to reheat later, so slightly underdone is good anyway
+- I froze them to reheat later, so slightly underdone is good anyway. If I were making them to eat right away, I'd bake maybe 2 min longer.
 
 Next time:
 - Probably bake in my convection toaster oven, which heats up MUCH faster. That'll change the timing a bit
