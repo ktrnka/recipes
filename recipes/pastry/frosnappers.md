@@ -28,11 +28,15 @@ Attempt 4 was all done in one day, but it can be split across two with an overni
 - 340g all-purpose flour (2 1/2 cups + 1 tbsp)
 </div>
 
+For the flour, it turns out fine with cheap flour. I think the lower gluten content helps. And there's so many other flavors that the flour flavor doesn't come through so much.
+
 ### Butter block
 
 <div class="ingredients" markdown="1">
 - 250g butter (2 sticks + 1 1/2 tbsp)
 </div>
+
+For the butter, I use cheap butter with the cheese grater trick.
 
 ### Filling (remonce)
 
