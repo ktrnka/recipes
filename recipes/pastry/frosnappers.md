@@ -13,6 +13,12 @@ Mine (attempt 4) on the left, Nielsen's on the right.
 
 Makes: 12
 
+A great frosnapper is relatively light and full of contrast:
+- Flavors: Seed flavors balanced with almond filling
+- Sweetness: Not too sweet overall and the sweetness isn't evenly distributed. A touch of sweetness on the outside and more in the remonce, with less in the dough
+- Textures: Soft inside with a little chew. Flaky exterior to the lamination. Sugar crunch from leaked and carmelized remonce
+
+
 Attempt 4 was all done in one day, but it can be split across two with an overnight dough rise in the fridge.
 
 ## Ingredients
